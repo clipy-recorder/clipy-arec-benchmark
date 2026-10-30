@@ -15,7 +15,10 @@ per-trial results, and the scripts that produced them. Start with its
 [README](arec-deictic-landing-page/README.md) and the
 [evaluator correction note](arec-deictic-landing-page/evaluator-correction.md).
 
-The same files are available as a zip from the research page. The scripts
+The zip on the research page is the original 2026-08-17 snapshot. This repo
+matches it except for `scripts/generate-report/report.mjs`, whose public-copy
+link now names this repo, and that file's entry in
+`results/artifact-manifest.json`. Each copy's manifest matches its own files. The scripts
 were written to run from the Clipy monorepo, so paths in them start with
 `benchmarks/arec-deictic-landing-page/`.
 
