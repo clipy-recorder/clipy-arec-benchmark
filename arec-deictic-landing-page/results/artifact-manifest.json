@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "generatedAt": "2026-08-17T00:00:00.000Z",
   "fileCount": 556,
-  "totalBytes": 16215726,
+  "totalBytes": 16215925,
   "files": [
     {
       "path": ".gitignore",
@@ -2581,8 +2581,8 @@
     },
     {
       "path": "scripts/generate-report/report.mjs",
-      "bytes": 16479,
-      "sha256": "f981d1a9ae8bcefae2f7d60cdcde2b9053af8eecfce32a7b2f062065b2012c65"
+      "bytes": 16678,
+      "sha256": "460b0632c1d4b790a07142d248d99a11046c27408aa67a80892346d52e3f5dff"
     },
     {
       "path": "scripts/generate-report/rows.mjs",
