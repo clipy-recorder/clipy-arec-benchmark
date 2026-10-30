@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "appliedAt": "2026-08-17T00:00:00.000Z",
+  "policy": {
+    "absoluteHomePaths": "Replace the account-specific home prefix with [REDACTED_HOME].",
+    "hostIdentity": "Replace host account names in ownership/uid output and the local hostname.",
+    "globalAgentContent": "Replace output from commands that read globally installed agent skills or plugins; retain the redacted command and exit status.",
+    "primaryOutcomeImpact": "None. Scores, patches, timing, usage, and trial inclusion are unchanged."
+  },
+  "records": [
+    {
+      "hostPathOccurrences": 0,
+      "hostIdentityOccurrences": 0,
+      "nonStudyGlobalCommandOutputs": 0,
+      "redactedFiles": [],
+      "run": "pilots/pilot-clipy_arec-transport-custom"
+    },
+    {
+      "hostPathOccurrences": 0,
+      "hostIdentityOccurrences": 0,
+      "nonStudyGlobalCommandOutputs": 0,
+      "redactedFiles": [],
+      "run": "pilots/pilot-clipy_arec-transport-http"
+    },
+    {
+      "hostPathOccurrences": 0,
+      "hostIdentityOccurrences": 0,
+      "nonStudyGlobalCommandOutputs": 0,
+      "redactedFiles": [
+        "results/pilots/pilot-clipy_arec-transport-smoke/stderr.log"
+      ],
+      "run": "pilots/pilot-clipy_arec-transport-smoke"
+    },
+    {
+      "hostPathOccurrences": 0,
+      "hostIdentityOccurrences": 0,
+      "nonStudyGlobalCommandOutputs": 0,
+      "redactedFiles": [],
+      "run": "trials/trial-01-clipy_arec"
+    },
+    {
+      "hostPathOccurrences": 0,
+      "hostIdentityOccurrences": 0,
+      "nonStudyGlobalCommandOutputs": 0,
+      "redactedFiles": [],
+      "run": "trials/trial-01-complete_spec"
+    },
+    {
+      "hostPathOccurrences": 0,
+      "hostIdentityOccurrences": 1,
+      "nonStudyGlobalCommandOutputs": 0,
+      "redactedFiles": [
+        "results/trials/trial-01-raw_video/events.jsonl",
+        "results/trials/trial-01-raw_video/metadata.json"
+      ],
+      "run": "trials/trial-01-raw_video"
+    },
+    {
+      "hostPathOccurrences": 0,
+      "hostIdentityOccurrences": 0,
+      "nonStudyGlobalCommandOutputs": 0,
+      "redactedFiles": [],
+      "run": "trials/trial-01-transcript_only"
+    },
+    {
+      "hostPathOccurrences": 0,
+      "hostIdentityOccurrences": 0,
+      "nonStudyGlobalCommandOutputs": 0,
+      "redactedFiles": [],
+      "run": "trials/trial-02-clipy_arec"
+    },
+    {
+      "hostPathOccurrences": 0,
+      "hostIdentityOccurrences": 0,
+      "nonStudyGlobalCommandOutputs": 0,
+      "redactedFiles": [],
+      "run": "trials/trial-02-complete_spec"
+    },
+    {
+      "hostPathOccurrences": 0,
+      "hostIdentityOccurrences": 0,
+      "nonStudyGlobalCommandOutputs": 0,
+      "redactedFiles": [],
+      "run": "trials/trial-02-raw_video"
+    },
+    {
+      "hostPathOccurrences": 0,
+      "hostIdentityOccurrences": 0,
+      "nonStudyGlobalCommandOutputs": 0,
+      "redactedFiles": [],
+      "run": "trials/trial-02-transcript_only"
+    },
+    {
+      "hostPathOccurrences": 0,
+      "hostIdentityOccurrences": 0,
+      "nonStudyGlobalCommandOutputs": 0,
+      "redactedFiles": [],
+      "run": "trials/trial-03-clipy_arec"
+    },
+    {
+      "hostPathOccurrences": 0,
+      "hostIdentityOccurrences": 0,
+      "nonStudyGlobalCommandOutputs": 0,
+      "redactedFiles": [],
+      "run": "trials/trial-03-complete_spec"
+    },
+    {
+      "hostPathOccurrences": 0,
+      "hostIdentityOccurrences": 1,
+      "nonStudyGlobalCommandOutputs": 0,
+      "redactedFiles": [
+        "results/trials/trial-03-raw_video/events.jsonl",
+        "results/trials/trial-03-raw_video/metadata.json"
+      ],
+      "run": "trials/trial-03-raw_video"
+    },
+    {
+      "hostPathOccurrences": 0,
+      "hostIdentityOccurrences": 0,
+      "nonStudyGlobalCommandOutputs": 0,
+      "redactedFiles": [],
+      "run": "trials/trial-03-transcript_only"
+    },
+    {
+      "hostPathOccurrences": 0,
+      "hostIdentityOccurrences": 0,
+      "nonStudyGlobalCommandOutputs": 0,
+      "redactedFiles": [],
+      "run": "trials/trial-04-clipy_arec"
+    },
+    {
+      "hostPathOccurrences": 0,
+      "hostIdentityOccurrences": 0,
+      "nonStudyGlobalCommandOutputs": 0,
+      "redactedFiles": [],
+      "run": "trials/trial-04-complete_spec"
+    },
+    {
+      "hostPathOccurrences": 0,
+      "hostIdentityOccurrences": 0,
+      "nonStudyGlobalCommandOutputs": 0,
+      "redactedFiles": [],
+      "run": "trials/trial-04-raw_video"
+    },
+    {
+      "hostPathOccurrences": 0,
+      "hostIdentityOccurrences": 0,
+      "nonStudyGlobalCommandOutputs": 0,
+      "redactedFiles": [],
+      "run": "trials/trial-04-transcript_only"
+    },
+    {
+      "hostPathOccurrences": 0,
+      "hostIdentityOccurrences": 0,
+      "nonStudyGlobalCommandOutputs": 0,
+      "redactedFiles": [],
+      "run": "trials/trial-05-clipy_arec"
+    },
+    {
+      "hostPathOccurrences": 0,
+      "hostIdentityOccurrences": 0,
+      "nonStudyGlobalCommandOutputs": 0,
+      "redactedFiles": [],
+      "run": "trials/trial-05-complete_spec"
+    },
+    {
+      "hostPathOccurrences": 0,
+      "hostIdentityOccurrences": 0,
+      "nonStudyGlobalCommandOutputs": 0,
+      "redactedFiles": [],
+      "run": "trials/trial-05-raw_video"
+    },
+    {
+      "hostPathOccurrences": 0,
+      "hostIdentityOccurrences": 0,
+      "nonStudyGlobalCommandOutputs": 0,
+      "redactedFiles": [],
+      "run": "trials/trial-05-transcript_only"
+    }
+  ]
+}

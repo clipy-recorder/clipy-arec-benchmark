@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "runId": "trial-02-raw_video",
+  "pilot": false,
+  "arm": "raw_video",
+  "replicate": "2",
+  "protocolBaseCommit": "8cd02918ac4e4cea41125e3df78442d8aa099020",
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "medium",
+  "promptCount": 1,
+  "startedAt": "2026-08-17T11:59:11.385Z",
+  "endedAt": "2026-08-17T12:00:44.740Z",
+  "elapsedSeconds": 93.355345375,
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "leakageDetected": false,
+  "filesystemCanaryHitCount": 0,
+  "secretLeakDetected": false,
+  "secretFilesystemHitCount": 0,
+  "hostMaterialDetected": false,
+  "hostMaterialFilesystemHitCount": 0,
+  "authRemovedAfterThreadStart": true,
+  "unsafeSubmissionDetected": false,
+  "unsafeSubmissionEntryCount": 0,
+  "artifactRedactions": {
+    "hostIdentityOccurrences": 0,
+    "hostPathOccurrences": 0,
+    "nonStudyGlobalCommandOutputs": 0
+  },
+  "infrastructureFailure": false,
+  "conditionManifestSha256": "00bb9300062d6a3f4dcda5b95ad5e52ad7b4aa5c0271dd2653959c1179d9613b",
+  "patchBytes": 622,
+  "additionalPromptCount": 0,
+  "clarificationRequestCount": 0,
+  "status": [
+    "M index.html"
+  ],
+  "eventCount": 25,
+  "toolCallCount": 9,
+  "commandCallCount": 8,
+  "commands": [
+    "/bin/zsh -lc \"pwd && rg --files -g 'AGENTS.md' -g 'package.json' -g 'evidence/**' -g '\"'!node_modules'\"' && find evidence -maxdepth 2 -type f | sort\"",
+    "/bin/zsh -lc \"sed -n '1,240p' AGENTS.md && printf '\\\\n--- evidence README ---\\\\n' && sed -n '1,240p' evidence/README.md && printf '\\\\n--- project files ---\\\\n' && rg --files -g '\"'!node_modules'\"' -g '\"'!evidence/**'\"' | sort && printf '\\\\n--- video metadata ---\\\\n' && ffprobe -v error -show_entries format=duration:stream=codec_name,width,height,r_frame_rate -of default=noprint_wrappers=1 evidence/relay-design-review.mp4\"",
+    "/bin/zsh -lc 'ffmpeg -hide_banner -loglevel error -i evidence/relay-design-review.mp4 -vf \"fps=1/4,scale=720:-1,tile=3x4\" -frames:v 1 evidence/.review-contact-sheet.jpg'",
+    "/bin/zsh -lc \"which whisper || true\nwhich whisper-cli || true\nwhich ffmpeg\nsed -n '1,260p' index.html\nprintf '\\\\n--- app.js ---\\\\n'\nsed -n '1,300p' app.js\nprintf '\\\\n--- styles.css ---\\\\n'\nsed -n '1,360p' styles.css\nprintf '\\\\n--- package ---\\\\n'\ncat package.json\"",
+    "/bin/zsh -lc \"whisper --help | sed -n '1,160p' && sed -n '1,320p' tests/smoke.mjs\"",
+    "/bin/zsh -lc 'ffmpeg -hide_banner -loglevel error -i evidence/relay-design-review.mp4 -vf \"fps=1,scale=480:-1,tile=4x3\" -frames:v 4 evidence/.review-seconds-%02d.jpg'",
+    "/bin/zsh -lc 'ffmpeg -hide_banner -loglevel error -ss 2.5 -i evidence/relay-design-review.mp4 -frames:v 1 evidence/.frame-02.5.jpg\nffmpeg -hide_banner -loglevel error -ss 3.5 -i evidence/relay-design-review.mp4 -frames:v 1 evidence/.frame-03.5.jpg\nffmpeg -hide_banner -loglevel error -ss 4.5 -i evidence/relay-design-review.mp4 -frames:v 1 evidence/.frame-04.5.jpg\nffmpeg -hide_banner -loglevel error -ss 16.5 -i evidence/relay-design-review.mp4 -frames:v 1 evidence/.frame-16.5.jpg\nffmpeg -hide_banner -loglevel error -ss 20.5 -i evidence/relay-design-review.mp4 -frames:v 1 evidence/.frame-20.5.jpg\nffmpeg -hide_banner -loglevel error -ss 40.5 -i evidence/relay-design-review.mp4 -frames:v 1 evidence/.frame-40.5.jpg'",
+    "/bin/zsh -lc 'npm test\nrm evidence/.review-contact-sheet.jpg evidence/.review-seconds-01.jpg evidence/.review-seconds-02.jpg evidence/.review-seconds-03.jpg evidence/.review-seconds-04.jpg evidence/.frame-02.5.jpg evidence/.frame-03.5.jpg evidence/.frame-04.5.jpg evidence/.frame-16.5.jpg evidence/.frame-20.5.jpg evidence/.frame-40.5.jpg\ngit diff --check\ngit diff -- index.html\ngit status --short'"
+  ],
+  "usage": {
+    "input_tokens": 286535,
+    "cached_input_tokens": 246016,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 3526,
+    "reasoning_output_tokens": 1370
+  },
+  "modelTurnCompleted": true,
+  "rawCapability": {
+    "frameInspectionAttempted": true,
+    "audioExtractionAttempted": false
+  }
+}

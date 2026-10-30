@@ -1,0 +1,35 @@
+diff --git a/index.html b/index.html
+index 7ed847c..7f82816 100644
+--- a/index.html
++++ b/index.html
+@@ -28,7 +28,7 @@
+       <section id="product" class="hero" aria-labelledby="hero-title">
+         <div class="hero-copy-block">
+           <p class="eyebrow">Decisions without the status meeting</p>
+-          <h1 id="hero-title">Keep every decision moving.</h1>
++          <h1 id="hero-title">Move work forward without another meeting.</h1>
+           <p class="hero-copy">
+             Capture the context, choose an owner, and give every teammate a clear
+             next move without adding another calendar event.
+diff --git a/styles.css b/styles.css
+index 4dbbccc..88721f4 100644
+--- a/styles.css
++++ b/styles.css
+@@ -101,7 +101,7 @@ h1 {
+ .button-primary:hover { transform: translateY(-2px); }
+ #see-how:hover, #see-how:focus-visible {
+   background: #5b4be7;
+-  color: #6557e8;
++  color: white;
+   outline: none;
+ }
+ .assurance-list {
+@@ -186,7 +186,7 @@ body.capture-mode #capture-note[data-visible="true"] { display: block; }
+   .hero-actions { align-items: stretch; flex-direction: column; }
+   .decision-board { padding: 24px; transform: none; }
+   .proof-section { padding: 28px 20px 72px; }
+-  .proof-grid { grid-template-columns: repeat(3, 270px); width: 860px; }
++  .proof-grid { grid-template-columns: 1fr; width: auto; }
+   .resources-section { border-radius: 0; margin-bottom: 56px; padding: 56px 20px; }
+ }
+ 

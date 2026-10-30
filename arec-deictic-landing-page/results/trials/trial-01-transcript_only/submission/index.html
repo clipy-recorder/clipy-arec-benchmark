@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Relay keeps product decisions moving without another status meeting."
+    />
+    <title>Relay — async decisions that keep moving</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Relay home">
+        <span class="brand-mark" aria-hidden="true">R</span>
+        Relay
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#product">Product</a>
+        <a href="#proof">Customers</a>
+        <a data-nav="resources" href="#resources">Resources</a>
+        <a href="#contact">Pricing</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section id="product" class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy-block">
+          <p class="eyebrow">Decisions without the status meeting</p>
+          <h1 id="hero-title">Keep every decision moving.</h1>
+          <p class="hero-copy">
+            Capture the context, choose an owner, and give every teammate a clear
+            next move without adding another calendar event.
+          </p>
+          <div class="hero-actions" aria-label="Get started">
+            <a id="start-free" class="button button-secondary" href="#contact">Start free</a>
+            <a id="see-how" class="button button-primary" href="#proof">See how it works</a>
+          </div>
+          <ul class="assurance-list" aria-label="Plan assurances">
+            <li data-assurance="no-card">No credit card</li>
+            <li data-assurance="stack">Works with your stack</li>
+            <li data-assurance="cancel">Cancel anytime</li>
+          </ul>
+        </div>
+        <div class="decision-board" aria-label="Example decision board">
+          <p class="board-label">Launch decision · Today</p>
+          <h2>Which onboarding should ship?</h2>
+          <div class="board-row">
+            <span class="avatar" aria-hidden="true">AM</span>
+            <div><strong>Aria</strong><small>Shared customer evidence</small></div>
+            <span class="status">Ready</span>
+          </div>
+          <div class="board-row">
+            <span class="avatar avatar-alt" aria-hidden="true">JK</span>
+            <div><strong>Jules</strong><small>Confirmed engineering scope</small></div>
+            <span class="status">Ready</span>
+          </div>
+          <p class="decision">Ship the guided path on Tuesday.</p>
+        </div>
+      </section>
+
+      <section id="proof" class="proof-section" aria-labelledby="proof-title">
+        <p class="section-label">Proof without another meeting</p>
+        <h2 id="proof-title">One decision trail everyone can follow.</h2>
+        <div class="proof-grid">
+          <article class="proof-card">
+            <strong>4.8h</strong>
+            <span>saved per decision cycle</span>
+          </article>
+          <article class="proof-card">
+            <strong>92%</strong>
+            <span>of owners reply asynchronously</span>
+          </article>
+          <article class="proof-card">
+            <strong>1 place</strong>
+            <span>for context, choice, and owner</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="resources" class="resources-section" aria-labelledby="resources-title">
+        <p class="section-label">Built for the messy middle</p>
+        <h2 id="resources-title">From open question to owned next step.</h2>
+        <p>Relay keeps the evidence beside the decision, so late readers can catch up without reopening the debate.</p>
+      </section>
+
+      <section id="contact" class="contact-section" aria-labelledby="contact-title">
+        <h2 id="contact-title">Move the next decision forward today.</h2>
+        <a href="mailto:hello@relay.invalid">hello@relay.invalid</a>
+      </section>
+    </main>
+
+    <div id="capture-pointer" aria-hidden="true"></div>
+    <div id="capture-note" aria-hidden="true"></div>
+    <script src="app.js"></script>
+  </body>
+</html>

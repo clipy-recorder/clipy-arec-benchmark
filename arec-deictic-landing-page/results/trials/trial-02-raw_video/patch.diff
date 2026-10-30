@@ -1,0 +1,13 @@
+diff --git a/index.html b/index.html
+index 7ed847c..7f82816 100644
+--- a/index.html
++++ b/index.html
+@@ -28,7 +28,7 @@
+       <section id="product" class="hero" aria-labelledby="hero-title">
+         <div class="hero-copy-block">
+           <p class="eyebrow">Decisions without the status meeting</p>
+-          <h1 id="hero-title">Keep every decision moving.</h1>
++          <h1 id="hero-title">Move work forward without another meeting.</h1>
+           <p class="hero-copy">
+             Capture the context, choose an owner, and give every teammate a clear
+             next move without adding another calendar event.

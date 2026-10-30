@@ -1,0 +1,7 @@
+[0:01] First, use the exact headline from the review note I'm highlighting here.
+[0:07] Between these two hero actions, make this one the only filled button and leave the other one outlined.
+[0:13] On phones, hide this navigation item completely, but keep the rest.
+[0:19] In this assurance row, move this item immediately before that one.
+[0:26] At phone width, the proof cards spill the whole page sideways. Keep all three cards, but make the page fit without horizontal scrolling.
+[0:35] Finally, on this same filled action, keep the label white on hover and keyboard focus, and give focus a clearly visible ring.
+[0:42] That's the complete review.

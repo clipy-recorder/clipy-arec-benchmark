@@ -1,0 +1,8 @@
+Implement these six changes and no others:
+
+1. Change the hero H1 to “Move work forward without another meeting.”
+2. Make “See how it works” the sole filled primary hero CTA and render “Start free” as the outlined secondary action.
+3. Hide only the “Resources” navigation link below 640 CSS pixels while keeping the other navigation links.
+4. Move “Cancel anytime” immediately before “No credit card” and preserve all three assurance items.
+5. At 390 CSS pixels, keep all three proof cards while removing page-wide horizontal overflow.
+6. On “See how it works,” keep white text on hover and keyboard focus and add a visible focus ring with at least 3:1 contrast.

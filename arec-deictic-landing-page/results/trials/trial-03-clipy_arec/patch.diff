@@ -1,0 +1,64 @@
+diff --git a/index.html b/index.html
+index 7ed847c..ac9e286 100644
+--- a/index.html
++++ b/index.html
+@@ -28,18 +28,18 @@
+       <section id="product" class="hero" aria-labelledby="hero-title">
+         <div class="hero-copy-block">
+           <p class="eyebrow">Decisions without the status meeting</p>
+-          <h1 id="hero-title">Keep every decision moving.</h1>
++          <h1 id="hero-title">Move work forward without another meeting.</h1>
+           <p class="hero-copy">
+             Capture the context, choose an owner, and give every teammate a clear
+             next move without adding another calendar event.
+           </p>
+           <div class="hero-actions" aria-label="Get started">
+-            <a id="start-free" class="button button-primary" href="#contact">Start free</a>
++            <a id="start-free" class="button button-secondary" href="#contact">Start free</a>
+             <a id="see-how" class="button button-primary" href="#proof">See how it works</a>
+           </div>
+           <ul class="assurance-list" aria-label="Plan assurances">
+-            <li data-assurance="no-card">No credit card</li>
+             <li data-assurance="cancel">Cancel anytime</li>
++            <li data-assurance="no-card">No credit card</li>
+             <li data-assurance="stack">Works with your stack</li>
+           </ul>
+         </div>
+diff --git a/styles.css b/styles.css
+index 4dbbccc..a64b31a 100644
+--- a/styles.css
++++ b/styles.css
+@@ -98,11 +98,15 @@ h1 {
+   transition: background-color 140ms ease, color 140ms ease, transform 140ms ease;
+ }
+ .button-primary { background: var(--violet); color: white; }
++.button-secondary { border-color: var(--violet); color: var(--violet); }
+ .button-primary:hover { transform: translateY(-2px); }
+ #see-how:hover, #see-how:focus-visible {
+   background: #5b4be7;
+-  color: #6557e8;
+-  outline: none;
++  color: white;
++}
++#see-how:focus-visible {
++  outline: 3px solid var(--ink);
++  outline-offset: 3px;
+ }
+ .assurance-list {
+   display: flex;
+@@ -186,10 +190,14 @@ body.capture-mode #capture-note[data-visible="true"] { display: block; }
+   .hero-actions { align-items: stretch; flex-direction: column; }
+   .decision-board { padding: 24px; transform: none; }
+   .proof-section { padding: 28px 20px 72px; }
+-  .proof-grid { grid-template-columns: repeat(3, 270px); width: 860px; }
++  .proof-grid { grid-template-columns: 1fr; width: auto; }
+   .resources-section { border-radius: 0; margin-bottom: 56px; padding: 56px 20px; }
+ }
+ 
++@media (max-width: 639px) {
++  nav a[data-nav="resources"] { display: none; }
++}
++
+ @media (prefers-reduced-motion: reduce) {
+   html { scroll-behavior: auto; }
+   .button { transition: none; }

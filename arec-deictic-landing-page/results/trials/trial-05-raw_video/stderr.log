@@ -1,0 +1,5 @@
+2026-08-17T12:17:06.385921Z ERROR codex_core::tools::router: error=exec_command failed for `/bin/zsh -lc 'rm -rf .evidence-frames.qoKDSy .evidence-transcript
+npm test
+git diff --check
+git diff -- index.html styles.css
+git status --short'`: CreateProcess { message: "Rejected(\"`/bin/zsh -lc 'rm -rf .evidence-frames.qoKDSy .evidence-transcript\\nnpm test\\ngit diff --check\\ngit diff -- index.html styles.css\\ngit status --short'` rejected: rm -f style commands are not permitted. Use a safer approach\")" }

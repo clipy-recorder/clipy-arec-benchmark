@@ -1,0 +1,11 @@
+Reference changes, withheld from trial agents:
+
+- Replace the H1 with “Move work forward without another meeting.”
+- Give `#see-how` the filled primary style and `#start-free` the outlined style.
+- Hide only `[data-nav="resources"]` below 640 CSS pixels.
+- Place `data-assurance="cancel"` immediately before `data-assurance="no-card"`.
+- Collapse the proof grid to one container-width column at the mobile breakpoint.
+- Keep white text on `#see-how` hover/focus and add a visible high-contrast focus outline.
+
+The complete reference implementation is retained in `evaluator/gold/`. The
+deterministic grader reads this frozen rubric and observes submissions in Chrome.

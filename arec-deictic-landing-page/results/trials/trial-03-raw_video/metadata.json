@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "runId": "trial-03-raw_video",
+  "pilot": false,
+  "arm": "raw_video",
+  "replicate": "3",
+  "protocolBaseCommit": "8cd02918ac4e4cea41125e3df78442d8aa099020",
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "medium",
+  "promptCount": 1,
+  "startedAt": "2026-08-17T12:02:18.359Z",
+  "endedAt": "2026-08-17T12:05:01.743Z",
+  "elapsedSeconds": 163.384031167,
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "leakageDetected": false,
+  "filesystemCanaryHitCount": 0,
+  "secretLeakDetected": false,
+  "secretFilesystemHitCount": 0,
+  "hostMaterialDetected": false,
+  "hostMaterialFilesystemHitCount": 0,
+  "authRemovedAfterThreadStart": true,
+  "unsafeSubmissionDetected": false,
+  "unsafeSubmissionEntryCount": 0,
+  "artifactRedactions": {
+    "hostIdentityOccurrences": 1,
+    "hostPathOccurrences": 0,
+    "nonStudyGlobalCommandOutputs": 0
+  },
+  "infrastructureFailure": false,
+  "conditionManifestSha256": "00bb9300062d6a3f4dcda5b95ad5e52ad7b4aa5c0271dd2653959c1179d9613b",
+  "patchBytes": 810,
+  "additionalPromptCount": 0,
+  "clarificationRequestCount": 0,
+  "status": [
+    "M styles.css"
+  ],
+  "eventCount": 42,
+  "toolCallCount": 17,
+  "commandCallCount": 16,
+  "commands": [
+    "/bin/zsh -lc \"pwd && rg --files evidence . | sed -n '1,200p'\"",
+    "/bin/zsh -lc \"sed -n '1,240p' evidence/README.md && ffprobe -v error -show_entries format=duration:stream=codec_name,width,height,r_frame_rate -of default=noprint_wrappers=1 evidence/relay-design-review.mp4\"",
+    "/bin/zsh -lc 'tmp_dir=$(mktemp -d ./evidence_frames.XXXXXX) && ffmpeg -hide_banner -loglevel error -i evidence/relay-design-review.mp4 -vf \"fps=1/4,scale=720:-1\" \"$tmp_dir/frame-%02d.jpg\" && find \"$tmp_dir\" -type f | sort'",
+    "/bin/zsh -lc 'montage evidence_frames.Q4uqt5/frame-*.jpg -tile 3x -geometry 360x225+4+4 evidence_frames.Q4uqt5/contact-sheet.jpg'",
+    "/bin/zsh -lc \"ffmpeg -hide_banner -loglevel error -i evidence/relay-design-review.mp4 -vf \\\"select='eq(n,0)+eq(n,250)+eq(n,500)+eq(n,750)+eq(n,1000)',tile=5x1:padding=4:margin=4,scale=1800:-1\\\" -frames:v 1 evidence_frames.Q4uqt5/contact-sheet.jpg && ls -lh evidence_frames.Q4uqt5/contact-sheet.jpg\"",
+    "/bin/zsh -lc \"sed -n '1,260p' index.html && sed -n '1,320p' styles.css && sed -n '1,320p' app.js && cat package.json && sed -n '1,260p' tests/smoke.mjs\"",
+    "/bin/zsh -lc \"ffmpeg -hide_banner -i evidence/relay-design-review.mp4 -af silencedetect=noise=-45dB:d=0.5 -f null - 2>&1 | sed -n '1,200p'; rg --files | rg -i 'whisper|transcrib|audio' || true\"",
+    "/bin/zsh -lc \"command -v whisper || command -v whisper-cli || command -v faster-whisper || command -v python3 || true; find /usr/local/bin /opt/homebrew/bin -maxdepth 1 -type f -iname '*whisper*' 2>/dev/null | sed -n '1,40p'\"",
+    "/bin/zsh -lc 'ffmpeg -hide_banner -loglevel error -ss 1 -t 3.5 -i evidence/relay-design-review.mp4 -vn -ac 1 -ar 16000 -b:a 12k -f mp3 - | base64'",
+    "/bin/zsh -lc 'ffmpeg -hide_banner -loglevel error -ss 1 -t 3.5 -i evidence/relay-design-review.mp4 -vn -ac 1 -ar 16000 -b:a 12k -f mp3 - | base64'",
+    "/bin/zsh -lc 'git diff -- styles.css'",
+    "/bin/zsh -lc 'git diff --check'",
+    "/bin/zsh -lc 'npm test'",
+    "/bin/zsh -lc 'find /private/tmp/clipy-arec-deictic-benchmark-work/trials/trial-03-raw_video-a5a2f69f/repo/evidence_frames.Q4uqt5 -type f -delete'",
+    "/bin/zsh -lc 'rmdir /private/tmp/clipy-arec-deictic-benchmark-work/trials/trial-03-raw_video-a5a2f69f/repo/evidence_frames.Q4uqt5'",
+    "/bin/zsh -lc 'git status --short'"
+  ],
+  "usage": {
+    "input_tokens": 385391,
+    "cached_input_tokens": 345728,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 6017,
+    "reasoning_output_tokens": 3121
+  },
+  "modelTurnCompleted": true,
+  "rawCapability": {
+    "frameInspectionAttempted": true,
+    "audioExtractionAttempted": true
+  }
+}

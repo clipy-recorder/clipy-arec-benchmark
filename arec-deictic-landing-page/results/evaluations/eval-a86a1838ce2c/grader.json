@@ -1,0 +1,518 @@
+{
+  "schemaVersion": 1,
+  "evaluationId": "eval-a86a1838ce2c",
+  "grader": "deterministic-v1",
+  "functionalScore": 11,
+  "maximumFunctionalScore": 12,
+  "strictCompletion": false,
+  "requirements": [
+    {
+      "id": "headline",
+      "sourcePoint": 1,
+      "behaviorPoint": 1,
+      "score": 2
+    },
+    {
+      "id": "ctaHierarchy",
+      "sourcePoint": 1,
+      "behaviorPoint": 1,
+      "score": 2
+    },
+    {
+      "id": "responsiveNavigation",
+      "sourcePoint": 1,
+      "behaviorPoint": 1,
+      "score": 2
+    },
+    {
+      "id": "assuranceOrder",
+      "sourcePoint": 1,
+      "behaviorPoint": 1,
+      "score": 2
+    },
+    {
+      "id": "mobileOverflow",
+      "sourcePoint": 1,
+      "behaviorPoint": 1,
+      "score": 2
+    },
+    {
+      "id": "ctaStates",
+      "sourcePoint": 1,
+      "behaviorPoint": 0,
+      "score": 1
+    }
+  ],
+  "smoke": {
+    "passed": true,
+    "exitCode": 0,
+    "stdout": "Trusted fixture invariants passed.\n",
+    "stderr": ""
+  },
+  "regressionFailures": [],
+  "unsupportedAssumptions": [],
+  "changedFiles": [
+    "index.html",
+    "styles.css"
+  ],
+  "observed": {
+    "desktop": {
+      "h1": "Move work forward without another meeting.",
+      "h1Count": 1,
+      "headingCount": 5,
+      "sectionCount": 4,
+      "primaryCount": 1,
+      "start": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(91, 75, 231)",
+        "borderStyle": "solid",
+        "borderWidth": "2px",
+        "color": "rgb(91, 75, 231)",
+        "display": "flex",
+        "outlineColor": "rgb(91, 75, 231)",
+        "outlineStyle": "none",
+        "outlineWidth": "3px",
+        "boxShadow": "none",
+        "textDecorationLine": "none",
+        "width": 124.859375,
+        "height": 52,
+        "x": 162,
+        "y": 559.78125
+      },
+      "seeHow": {
+        "backgroundColor": "rgb(91, 75, 231)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderStyle": "solid",
+        "borderWidth": "2px",
+        "color": "rgb(255, 255, 255)",
+        "display": "flex",
+        "outlineColor": "rgb(255, 255, 255)",
+        "outlineStyle": "none",
+        "outlineWidth": "3px",
+        "boxShadow": "none",
+        "textDecorationLine": "none",
+        "width": 178.890625,
+        "height": 52,
+        "x": 298.859375,
+        "y": 559.78125
+      },
+      "resources": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(105, 102, 124)",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "color": "rgb(105, 102, 124)",
+        "display": "block",
+        "outlineColor": "rgb(105, 102, 124)",
+        "outlineStyle": "none",
+        "outlineWidth": "3px",
+        "boxShadow": "none",
+        "textDecorationLine": "none",
+        "width": 73.21875,
+        "height": 21,
+        "x": 1131.578125,
+        "y": 30.5
+      },
+      "assuranceOrder": [
+        "Cancel anytime",
+        "No credit card",
+        "Works with your stack"
+      ],
+      "assuranceCount": 3,
+      "proofCount": 3,
+      "proofFirst": {
+        "backgroundColor": "rgb(255, 254, 251)",
+        "borderColor": "rgb(222, 217, 204)",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "color": "rgb(24, 23, 38)",
+        "display": "grid",
+        "outlineColor": "rgb(24, 23, 38)",
+        "outlineStyle": "none",
+        "outlineWidth": "3px",
+        "boxShadow": "none",
+        "textDecorationLine": "none",
+        "width": 270,
+        "height": 155,
+        "x": 162,
+        "y": 991.40625
+      },
+      "proofRects": [
+        {
+          "x": 162,
+          "y": 991.40625,
+          "width": 270,
+          "height": 155
+        },
+        {
+          "x": 450,
+          "y": 991.40625,
+          "width": 270,
+          "height": 155
+        },
+        {
+          "x": 738,
+          "y": 991.40625,
+          "width": 270,
+          "height": 155
+        }
+      ],
+      "documentClientWidth": 1440,
+      "documentScrollWidth": 1440,
+      "links": [
+        {
+          "text": "R\n        Relay",
+          "href": "#top",
+          "className": "brand",
+          "display": "flex"
+        },
+        {
+          "text": "Product",
+          "href": "#product",
+          "className": "",
+          "display": "block"
+        },
+        {
+          "text": "Customers",
+          "href": "#proof",
+          "className": "",
+          "display": "block"
+        },
+        {
+          "text": "Resources",
+          "href": "#resources",
+          "className": "",
+          "display": "block"
+        },
+        {
+          "text": "Pricing",
+          "href": "#contact",
+          "className": "",
+          "display": "block"
+        },
+        {
+          "text": "Start free",
+          "href": "#contact",
+          "className": "button button-secondary",
+          "display": "flex"
+        },
+        {
+          "text": "See how it works",
+          "href": "#proof",
+          "className": "button button-primary",
+          "display": "flex"
+        },
+        {
+          "text": "hello@relay.invalid",
+          "href": "mailto:hello@relay.invalid",
+          "className": "",
+          "display": "inline"
+        }
+      ],
+      "duplicateIds": [],
+      "unnamedLinks": 0
+    },
+    "mobile": {
+      "h1": "Move work forward without another meeting.",
+      "h1Count": 1,
+      "headingCount": 5,
+      "sectionCount": 4,
+      "primaryCount": 1,
+      "start": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(91, 75, 231)",
+        "borderStyle": "solid",
+        "borderWidth": "2px",
+        "color": "rgb(91, 75, 231)",
+        "display": "flex",
+        "outlineColor": "rgb(91, 75, 231)",
+        "outlineStyle": "none",
+        "outlineWidth": "3px",
+        "boxShadow": "none",
+        "textDecorationLine": "none",
+        "width": 350,
+        "height": 52,
+        "x": 20,
+        "y": -614.5
+      },
+      "seeHow": {
+        "backgroundColor": "rgb(91, 75, 231)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderStyle": "solid",
+        "borderWidth": "2px",
+        "color": "rgb(255, 255, 255)",
+        "display": "flex",
+        "outlineColor": "rgb(255, 255, 255)",
+        "outlineStyle": "none",
+        "outlineWidth": "3px",
+        "boxShadow": "none",
+        "textDecorationLine": "none",
+        "width": 350,
+        "height": 52,
+        "x": 20,
+        "y": -550.5
+      },
+      "resources": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(105, 102, 124)",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "color": "rgb(105, 102, 124)",
+        "display": "none",
+        "outlineColor": "rgb(105, 102, 124)",
+        "outlineStyle": "none",
+        "outlineWidth": "3px",
+        "boxShadow": "none",
+        "textDecorationLine": "none",
+        "width": 0,
+        "height": 0,
+        "x": 0,
+        "y": 0
+      },
+      "assuranceOrder": [
+        "Cancel anytime",
+        "No credit card",
+        "Works with your stack"
+      ],
+      "assuranceCount": 3,
+      "proofCount": 3,
+      "proofFirst": {
+        "backgroundColor": "rgb(255, 254, 251)",
+        "borderColor": "rgb(222, 217, 204)",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "color": "rgb(24, 23, 38)",
+        "display": "grid",
+        "outlineColor": "rgb(24, 23, 38)",
+        "outlineStyle": "none",
+        "outlineWidth": "3px",
+        "boxShadow": "none",
+        "textDecorationLine": "none",
+        "width": 350,
+        "height": 131,
+        "x": 20,
+        "y": 257.28125
+      },
+      "proofRects": [
+        {
+          "x": 20,
+          "y": 257.28125,
+          "width": 350,
+          "height": 131
+        },
+        {
+          "x": 20,
+          "y": 406.28125,
+          "width": 350,
+          "height": 131
+        },
+        {
+          "x": 20,
+          "y": 555.28125,
+          "width": 350,
+          "height": 131
+        }
+      ],
+      "documentClientWidth": 390,
+      "documentScrollWidth": 390,
+      "links": [
+        {
+          "text": "R\n        Relay",
+          "href": "#top",
+          "className": "brand",
+          "display": "flex"
+        },
+        {
+          "text": "Product",
+          "href": "#product",
+          "className": "",
+          "display": "block"
+        },
+        {
+          "text": "Customers",
+          "href": "#proof",
+          "className": "",
+          "display": "block"
+        },
+        {
+          "text": "Resources",
+          "href": "#resources",
+          "className": "",
+          "display": "none"
+        },
+        {
+          "text": "Pricing",
+          "href": "#contact",
+          "className": "",
+          "display": "block"
+        },
+        {
+          "text": "Start free",
+          "href": "#contact",
+          "className": "button button-secondary",
+          "display": "flex"
+        },
+        {
+          "text": "See how it works",
+          "href": "#proof",
+          "className": "button button-primary",
+          "display": "flex"
+        },
+        {
+          "text": "hello@relay.invalid",
+          "href": "mailto:hello@relay.invalid",
+          "className": "",
+          "display": "inline"
+        }
+      ],
+      "duplicateIds": [],
+      "unnamedLinks": 0
+    },
+    "interactions": {
+      "hover": {
+        "backgroundColor": "rgb(91, 75, 231)",
+        "color": "rgb(255, 255, 255)"
+      },
+      "focus": {
+        "backgroundColor": "rgb(91, 75, 231)",
+        "color": "rgb(255, 255, 255)",
+        "outlineColor": "rgb(255, 255, 255)",
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "boxShadow": "none",
+        "parentBackgroundColor": "rgb(247, 245, 239)",
+        "focusVisible": true
+      },
+      "focusOrder": [
+        {
+          "text": "R\n        Relay",
+          "href": "#top",
+          "className": "brand",
+          "id": ""
+        },
+        {
+          "text": "Product",
+          "href": "#product",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Customers",
+          "href": "#proof",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Resources",
+          "href": "#resources",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Pricing",
+          "href": "#contact",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Start free",
+          "href": "#contact",
+          "className": "button button-secondary",
+          "id": "start-free"
+        },
+        {
+          "text": "See how it works",
+          "href": "#proof",
+          "className": "button button-primary",
+          "id": "see-how"
+        }
+      ]
+    }
+  },
+  "accessibility": {
+    "unnamedLinks": 0,
+    "duplicateIds": [],
+    "h1Count": 1,
+    "focusOrder": [
+      {
+        "text": "R\n        Relay",
+        "href": "#top",
+        "className": "brand",
+        "id": ""
+      },
+      {
+        "text": "Product",
+        "href": "#product",
+        "className": "",
+        "id": ""
+      },
+      {
+        "text": "Customers",
+        "href": "#proof",
+        "className": "",
+        "id": ""
+      },
+      {
+        "text": "Resources",
+        "href": "#resources",
+        "className": "",
+        "id": ""
+      },
+      {
+        "text": "Pricing",
+        "href": "#contact",
+        "className": "",
+        "id": ""
+      },
+      {
+        "text": "Start free",
+        "href": "#contact",
+        "className": "button button-secondary",
+        "id": "start-free"
+      },
+      {
+        "text": "See how it works",
+        "href": "#proof",
+        "className": "button button-primary",
+        "id": "see-how"
+      }
+    ],
+    "bothRequestedCtasKeyboardReachable": true,
+    "hoverTextContrast": 5.825,
+    "focusTextContrast": 5.825,
+    "focusIndicatorContrast": 1.0902,
+    "focusIndicatorVisible": false
+  },
+  "visual": {
+    "pixelDiff": {
+      "desktop": {
+        "comparable": true,
+        "actualSize": [
+          1440,
+          900
+        ],
+        "referenceSize": [
+          1440,
+          900
+        ],
+        "normalizedMae": 0.00030975853304284677
+      },
+      "mobile": {
+        "comparable": true,
+        "actualSize": [
+          390,
+          844
+        ],
+        "referenceSize": [
+          390,
+          844
+        ],
+        "normalizedMae": 0
+      }
+    },
+    "bboxDistance": {
+      "desktopMeanCssPx": 0,
+      "mobileMeanCssPx": 0
+    }
+  }
+}

@@ -1,0 +1,63 @@
+diff --git a/index.html b/index.html
+index 7ed847c..e70de1a 100644
+--- a/index.html
++++ b/index.html
+@@ -35,7 +35,7 @@
+           </p>
+           <div class="hero-actions" aria-label="Get started">
+             <a id="start-free" class="button button-primary" href="#contact">Start free</a>
+-            <a id="see-how" class="button button-primary" href="#proof">See how it works</a>
++            <a id="see-how" class="button button-secondary" href="#proof">See how it works</a>
+           </div>
+           <ul class="assurance-list" aria-label="Plan assurances">
+             <li data-assurance="no-card">No credit card</li>
+diff --git a/styles.css b/styles.css
+index 4dbbccc..4c8e2eb 100644
+--- a/styles.css
++++ b/styles.css
+@@ -98,11 +98,25 @@ h1 {
+   transition: background-color 140ms ease, color 140ms ease, transform 140ms ease;
+ }
+ .button-primary { background: var(--violet); color: white; }
+-.button-primary:hover { transform: translateY(-2px); }
+-#see-how:hover, #see-how:focus-visible {
+-  background: #5b4be7;
+-  color: #6557e8;
+-  outline: none;
++.button-primary:hover,
++.button-primary:focus-visible {
++  background: var(--violet-dark);
++  color: white;
++  transform: translateY(-2px);
++}
++.button-primary:focus-visible {
++  outline: 3px solid var(--ink);
++  outline-offset: 3px;
++}
++.button-secondary {
++  background: transparent;
++  border-color: var(--violet);
++  color: var(--violet);
++}
++.button-secondary:hover,
++.button-secondary:focus-visible {
++  background: rgba(91, 75, 231, 0.1);
++  transform: translateY(-2px);
+ }
+ .assurance-list {
+   display: flex;
+@@ -181,12 +195,13 @@ body.capture-mode #capture-note[data-visible="true"] { display: block; }
+   .site-header { padding: 18px 20px; }
+   nav { gap: 12px; }
+   nav a { font-size: 12px; }
++  nav a[data-nav="resources"] { display: none; }
+   .hero { gap: 42px; grid-template-columns: 1fr; padding: 56px 20px 72px; }
+   h1 { font-size: 50px; }
+   .hero-actions { align-items: stretch; flex-direction: column; }
+   .decision-board { padding: 24px; transform: none; }
+   .proof-section { padding: 28px 20px 72px; }
+-  .proof-grid { grid-template-columns: repeat(3, 270px); width: 860px; }
++  .proof-grid { grid-template-columns: 1fr; width: auto; }
+   .resources-section { border-radius: 0; margin-bottom: 56px; padding: 56px 20px; }
+ }
+ 

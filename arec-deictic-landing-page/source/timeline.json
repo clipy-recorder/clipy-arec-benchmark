@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "durationSeconds": 44,
+  "viewport": { "width": 1440, "height": 900 },
+  "segments": [
+    {
+      "startSeconds": 1,
+      "text": "First, use the exact headline from the review note I'm highlighting here."
+    },
+    {
+      "startSeconds": 7,
+      "text": "Between these two hero actions, make this one the only filled button and leave the other one outlined."
+    },
+    {
+      "startSeconds": 13,
+      "text": "On phones, hide this navigation item completely, but keep the rest."
+    },
+    {
+      "startSeconds": 19,
+      "text": "In this assurance row, move this item immediately before that one."
+    },
+    {
+      "startSeconds": 26,
+      "text": "At phone width, the proof cards spill the whole page sideways. Keep all three cards, but make the page fit without horizontal scrolling."
+    },
+    {
+      "startSeconds": 35,
+      "text": "Finally, on this same filled action, keep the label white on hover and keyboard focus, and give focus a clearly visible ring."
+    },
+    {
+      "startSeconds": 42,
+      "text": "That's the complete review."
+    }
+  ],
+  "moments": [
+    {
+      "id": "headline-note",
+      "tMs": 3500,
+      "caption": "A Flare marks a temporary review note reading ‘Move work forward without another meeting.’ as the replacement hero H1.",
+      "source": "flare",
+      "action": "note",
+      "text": "Move work forward without another meeting."
+    },
+    {
+      "id": "primary-cta",
+      "tMs": 9500,
+      "caption": "A Flare identifies ‘See how it works’ as the hero action that should remain filled; ‘Start free’ should be outlined.",
+      "source": "flare",
+      "action": "element",
+      "selector": "#see-how"
+    },
+    {
+      "id": "mobile-nav",
+      "tMs": 15500,
+      "caption": "A Flare identifies the ‘Resources’ navigation link as the only item to hide below 640 CSS pixels.",
+      "source": "flare",
+      "action": "element",
+      "selector": "[data-nav=resources]"
+    },
+    {
+      "id": "assurance-motion",
+      "tMs": 22500,
+      "caption": "A motion gesture moves ‘Cancel anytime’ immediately before ‘No credit card’ while preserving all assurance items.",
+      "source": "flare",
+      "action": "motion",
+      "selector": "[data-assurance=cancel]",
+      "targetSelector": "[data-assurance=no-card]",
+      "relation": "move"
+    },
+    {
+      "id": "mobile-overflow",
+      "tMs": 30500,
+      "caption": "At 390 CSS pixels, the three-card proof grid forces page-wide horizontal overflow.",
+      "source": "flare",
+      "action": "element",
+      "selector": ".proof-grid",
+      "mobile": true
+    },
+    {
+      "id": "cta-state",
+      "tMs": 38500,
+      "caption": "The pointer rests on ‘See how it works’ in its low-contrast hover state; the requested state keeps white text and adds a visible keyboard-focus ring.",
+      "source": "hover",
+      "action": "hover",
+      "selector": "#see-how"
+    }
+  ]
+}

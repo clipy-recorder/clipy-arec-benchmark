@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "studyId": "arec-deictic-landing-page-2026-08-17",
+  "synthetic": true,
+  "pilotInformed": true,
+  "baseCommit": "8cd02918ac4e4cea41125e3df78442d8aa099020",
+  "runtime": {
+    "command": "codex exec",
+    "cliVersion": "0.147.0",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "medium",
+    "timeoutSeconds": 720,
+    "promptCount": 1
+  },
+  "arms": [
+    "raw_video",
+    "transcript_only",
+    "clipy_arec",
+    "complete_spec"
+  ],
+  "primaryRecordingArms": [
+    "raw_video",
+    "transcript_only",
+    "clipy_arec"
+  ],
+  "positiveControlArm": "complete_spec",
+  "schedule": [
+    ["raw_video", "transcript_only", "clipy_arec", "complete_spec"],
+    ["transcript_only", "clipy_arec", "complete_spec", "raw_video"],
+    ["clipy_arec", "complete_spec", "raw_video", "transcript_only"],
+    ["complete_spec", "raw_video", "transcript_only", "clipy_arec"],
+    ["transcript_only", "complete_spec", "clipy_arec", "raw_video"]
+  ],
+  "primaryTrialsPerArm": 5,
+  "primaryScoreMaximum": 12,
+  "bootstrapSeed": 20260817,
+  "bootstrapResamples": 10000,
+  "publicationThreshold": {
+    "arecMinusTranscriptMeanScore": 4,
+    "arecMinimumStrictCompletions": 4,
+    "transcriptMaximumStrictCompletions": 1,
+    "arecMaximumMeanGapFromCompleteSpec": 1
+  },
+  "commonPromptFile": "common-task.md",
+  "fixturePath": "fixture/base",
+  "conditionRoot": "conditions",
+  "evaluatorPath": "evaluator"
+}
+

@@ -1,0 +1,52 @@
+diff --git a/index.html b/index.html
+index 7ed847c..bd0b1bf 100644
+--- a/index.html
++++ b/index.html
+@@ -34,13 +34,13 @@
+             next move without adding another calendar event.
+           </p>
+           <div class="hero-actions" aria-label="Get started">
+-            <a id="start-free" class="button button-primary" href="#contact">Start free</a>
++            <a id="start-free" class="button button-secondary" href="#contact">Start free</a>
+             <a id="see-how" class="button button-primary" href="#proof">See how it works</a>
+           </div>
+           <ul class="assurance-list" aria-label="Plan assurances">
+             <li data-assurance="no-card">No credit card</li>
+-            <li data-assurance="cancel">Cancel anytime</li>
+             <li data-assurance="stack">Works with your stack</li>
++            <li data-assurance="cancel">Cancel anytime</li>
+           </ul>
+         </div>
+         <div class="decision-board" aria-label="Example decision board">
+diff --git a/styles.css b/styles.css
+index 4dbbccc..797be4b 100644
+--- a/styles.css
++++ b/styles.css
+@@ -98,11 +98,15 @@ h1 {
+   transition: background-color 140ms ease, color 140ms ease, transform 140ms ease;
+ }
+ .button-primary { background: var(--violet); color: white; }
++.button-secondary { background: transparent; border-color: var(--violet); color: var(--violet); }
+ .button-primary:hover { transform: translateY(-2px); }
+ #see-how:hover, #see-how:focus-visible {
+   background: #5b4be7;
+-  color: #6557e8;
+-  outline: none;
++  color: white;
++}
++#see-how:focus-visible {
++  outline: 3px solid var(--ink);
++  outline-offset: 3px;
+ }
+ .assurance-list {
+   display: flex;
+@@ -186,7 +190,8 @@ body.capture-mode #capture-note[data-visible="true"] { display: block; }
+   .hero-actions { align-items: stretch; flex-direction: column; }
+   .decision-board { padding: 24px; transform: none; }
+   .proof-section { padding: 28px 20px 72px; }
+-  .proof-grid { grid-template-columns: repeat(3, 270px); width: 860px; }
++  .proof-grid { grid-template-columns: 1fr; width: auto; }
++  nav a[data-nav="resources"] { display: none; }
+   .resources-section { border-radius: 0; margin-bottom: 56px; padding: 56px 20px; }
+ }
+ 

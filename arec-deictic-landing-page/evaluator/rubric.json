@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "maximumFunctionalScore": 12,
+  "requirements": [
+    {
+      "id": "headline",
+      "label": "Exact hero headline",
+      "sourcePoint": "The source contains the exact visible H1 Move work forward without another meeting.",
+      "behaviorPoint": "Chrome exposes the exact text as the page H1."
+    },
+    {
+      "id": "ctaHierarchy",
+      "label": "Cursor-grounded CTA hierarchy",
+      "sourcePoint": "Only See how it works has the primary class and Start free has the secondary class.",
+      "behaviorPoint": "See how it works is visibly filled while Start free is visibly outlined."
+    },
+    {
+      "id": "responsiveNavigation",
+      "label": "Cursor-grounded responsive navigation",
+      "sourcePoint": "A 640px media query hides only the Resources navigation link.",
+      "behaviorPoint": "Resources is visible at desktop and hidden at 390px while Product, Customers, and Pricing remain visible."
+    },
+    {
+      "id": "assuranceOrder",
+      "label": "Motion-grounded assurance order",
+      "sourcePoint": "Cancel anytime immediately precedes No credit card and all three assurances remain.",
+      "behaviorPoint": "The DOM and rendered order match the requested source-to-destination motion."
+    },
+    {
+      "id": "mobileOverflow",
+      "label": "Fully spoken mobile overflow repair",
+      "sourcePoint": "The mobile proof grid is constrained to one container-width column without deleting cards.",
+      "behaviorPoint": "At 390x844 document.scrollWidth is no greater than document.clientWidth and all three proof cards remain."
+    },
+    {
+      "id": "ctaStates",
+      "label": "Cursor/state-grounded CTA interaction",
+      "sourcePoint": "See how it works declares white hover/focus text and a nontransparent >=2px outline.",
+      "behaviorPoint": "Hover/focus text contrast is >=4.5:1 and keyboard focus has >=3:1 indicator contrast."
+    }
+  ],
+  "regressionGates": [
+    "The fixture smoke test passes.",
+    "No existing section, proof card, assurance, or navigation label outside the requested responsive state is removed.",
+    "No new external URL, product claim, CTA, or dependency is added.",
+    "Only index.html, styles.css, or app.js may be modified."
+  ],
+  "unsupportedAssumptions": [
+    "new section",
+    "new product claim",
+    "new CTA destination",
+    "changed non-headline copy",
+    "removal of existing content outside the six targets"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "runId": "trial-05-raw_video",
+  "pilot": false,
+  "arm": "raw_video",
+  "replicate": "5",
+  "protocolBaseCommit": "8cd02918ac4e4cea41125e3df78442d8aa099020",
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "medium",
+  "promptCount": 1,
+  "startedAt": "2026-08-17T12:14:23.586Z",
+  "endedAt": "2026-08-17T12:17:26.325Z",
+  "elapsedSeconds": 182.73904,
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "leakageDetected": false,
+  "filesystemCanaryHitCount": 0,
+  "secretLeakDetected": false,
+  "secretFilesystemHitCount": 0,
+  "hostMaterialDetected": false,
+  "hostMaterialFilesystemHitCount": 0,
+  "authRemovedAfterThreadStart": true,
+  "unsafeSubmissionDetected": false,
+  "unsafeSubmissionEntryCount": 0,
+  "artifactRedactions": {
+    "hostIdentityOccurrences": 0,
+    "hostPathOccurrences": 0,
+    "nonStudyGlobalCommandOutputs": 0
+  },
+  "infrastructureFailure": false,
+  "conditionManifestSha256": "00bb9300062d6a3f4dcda5b95ad5e52ad7b4aa5c0271dd2653959c1179d9613b",
+  "patchBytes": 1662,
+  "additionalPromptCount": 0,
+  "clarificationRequestCount": 0,
+  "status": [
+    "M index.html",
+    " M styles.css"
+  ],
+  "eventCount": 39,
+  "toolCallCount": 16,
+  "commandCallCount": 15,
+  "commands": [
+    "/bin/zsh -lc \"pwd && rg --files -g '\"'!*node_modules*'\"' | sed -n '1,160p'\"",
+    "/bin/zsh -lc \"sed -n '1,240p' evidence/README.md && file evidence/relay-design-review.mp4 && (command -v ffprobe >/dev/null && ffprobe -v error -show_entries format=duration:stream=width,height -of default=noprint_wrappers=1 evidence/relay-design-review.mp4 || true) && sed -n '1,260p' index.html && sed -n '1,320p' styles.css && sed -n '1,260p' app.js && sed -n '1,160p' package.json\"",
+    "/bin/zsh -lc 'task_frames_dir=$(mktemp -d .evidence-frames.XXXXXX) && ffmpeg -hide_banner -loglevel error -i evidence/relay-design-review.mp4 -vf \"fps=1/4,scale=720:-1\" \"$task_frames_dir/frame-%02d.png\" && find \"$task_frames_dir\" -maxdepth 1 -type f | sort'",
+    "/bin/zsh -lc 'montage .evidence-frames.qoKDSy/frame-*.png -tile 3x4 -geometry 360x225+4+20 .evidence-frames.qoKDSy/contact-sheet.png'",
+    "/bin/zsh -lc \"ffprobe -v error -show_streams -of compact=p=0:nk=1 evidence/relay-design-review.mp4 && ffmpeg -hide_banner -loglevel error -i evidence/relay-design-review.mp4 -map 0:a:0 -f null - 2>&1 || true && sed -n '1,240p' tests/smoke.mjs && sed -n '1,200p' AGENTS.md\"",
+    "/bin/zsh -lc \"command -v whisper || command -v whisper-cli || command -v ffmpeg || true\nffmpeg -hide_banner -i evidence/relay-design-review.mp4 -af silencedetect=noise=-35dB:d=0.25 -f null - 2>&1 | sed -n '1,220p'\"",
+    "/bin/zsh -lc \"whisper --help | sed -n '1,200p' && find /opt/homebrew -type f -name '*.bin' -path '*whisper*' 2>/dev/null | sed -n '1,60p'\"",
+    "/bin/zsh -lc 'ffmpeg -hide_banner -loglevel error -ss 0 -t 11 -i evidence/relay-design-review.mp4 -vn -ac 1 -ar 16000 -b:a 24k -f mp3 pipe:1 | base64'",
+    "/bin/zsh -lc 'type whisper\nwhisper --model tiny.en --output_dir .evidence-transcript evidence/relay-design-review.mp4'",
+    "/bin/zsh -lc 'git status --short && git log --oneline --all -5 && git remote -v'",
+    "/bin/zsh -lc \"python3 - <<'PY'\ntry:\n import whisper\n print('whisper-python-available', whisper.__file__)\nexcept Exception as exc:\n print(type(exc).__name__, str(exc))\ntry:\n import faster_whisper\n print('faster-whisper-available')\nexcept Exception as exc:\n print(type(exc).__name__, str(exc))\nPY\"",
+    "/bin/zsh -lc \"python3 -c \\\"import whisper; print('whisper-python-available')\\\" 2>&1 || true\npython3 -c \\\"import faster_whisper; print('faster-whisper-available')\\\" 2>&1 || true\"",
+    "/bin/zsh -lc 'find .evidence-frames.qoKDSy -type f -delete && rmdir .evidence-frames.qoKDSy && rmdir .evidence-transcript 2>/dev/null || true'",
+    "/bin/zsh -lc 'npm test'",
+    "/bin/zsh -lc 'git diff --check && git status --short'"
+  ],
+  "usage": {
+    "input_tokens": 392480,
+    "cached_input_tokens": 361344,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 6873,
+    "reasoning_output_tokens": 4220
+  },
+  "modelTurnCompleted": true,
+  "rawCapability": {
+    "frameInspectionAttempted": true,
+    "audioExtractionAttempted": true
+  }
+}

@@ -1,0 +1,2719 @@
+[
+  {
+    "trialId": "trial-01-clipy_arec",
+    "evaluationId": "eval-7f1a3f016976",
+    "arm": "clipy_arec",
+    "replicate": 1,
+    "functionalScore": 12,
+    "maximumFunctionalScore": 12,
+    "strictCompletion": true,
+    "fixtureSmokePassed": true,
+    "requirementScores": {
+      "headline": 2,
+      "ctaHierarchy": 2,
+      "responsiveNavigation": 2,
+      "assuranceOrder": 2,
+      "mobileOverflow": 2,
+      "ctaStates": 2
+    },
+    "elapsedSeconds": 78.877249083,
+    "inputTokens": 211113,
+    "cachedInputTokens": 175104,
+    "outputTokens": 3084,
+    "reasoningOutputTokens": 762,
+    "toolCallCount": 6,
+    "commandCallCount": 5,
+    "promptCount": 1,
+    "additionalPromptCount": 0,
+    "clarificationRequestCount": 0,
+    "regressionFailures": [],
+    "unsupportedAssumptions": [],
+    "changedFiles": [
+      "index.html",
+      "styles.css"
+    ],
+    "accessibility": {
+      "unnamedLinks": 0,
+      "duplicateIds": [],
+      "h1Count": 1,
+      "focusOrder": [
+        {
+          "text": "R\n        Relay",
+          "href": "#top",
+          "className": "brand",
+          "id": ""
+        },
+        {
+          "text": "Product",
+          "href": "#product",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Customers",
+          "href": "#proof",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Resources",
+          "href": "#resources",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Pricing",
+          "href": "#contact",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Start free",
+          "href": "#contact",
+          "className": "button button-secondary",
+          "id": "start-free"
+        },
+        {
+          "text": "See how it works",
+          "href": "#proof",
+          "className": "button button-primary",
+          "id": "see-how"
+        }
+      ],
+      "bothRequestedCtasKeyboardReachable": true,
+      "hoverTextContrast": 8.8368,
+      "focusTextContrast": 8.8368,
+      "focusIndicatorContrast": 16.1951,
+      "focusIndicatorVisible": true
+    },
+    "visual": {
+      "pixelDiff": {
+        "desktop": {
+          "comparable": true,
+          "actualSize": [
+            1440,
+            900
+          ],
+          "referenceSize": [
+            1440,
+            900
+          ],
+          "normalizedMae": 0.00030975853304284677
+        },
+        "mobile": {
+          "comparable": true,
+          "actualSize": [
+            390,
+            844
+          ],
+          "referenceSize": [
+            390,
+            844
+          ],
+          "normalizedMae": 0
+        }
+      },
+      "bboxDistance": {
+        "desktopMeanCssPx": 0,
+        "mobileMeanCssPx": 0
+      }
+    },
+    "rawCapability": {
+      "frameInspectionAttempted": false,
+      "audioExtractionAttempted": false
+    },
+    "capabilityAudit": {
+      "rawFrameExtractionSucceeded": false,
+      "rawTranscriptionAttempted": false,
+      "rawTranscriptionSucceeded": false,
+      "arecDocumentRead": true,
+      "arecMomentAssetInspected": false
+    },
+    "infrastructureFailure": false,
+    "leakageDetected": false,
+    "secretLeakDetected": false,
+    "hostMaterialDetected": false,
+    "unsafeSubmissionDetected": false
+  },
+  {
+    "trialId": "trial-01-complete_spec",
+    "evaluationId": "eval-a3dcd42f632b",
+    "arm": "complete_spec",
+    "replicate": 1,
+    "functionalScore": 12,
+    "maximumFunctionalScore": 12,
+    "strictCompletion": true,
+    "fixtureSmokePassed": true,
+    "requirementScores": {
+      "headline": 2,
+      "ctaHierarchy": 2,
+      "responsiveNavigation": 2,
+      "assuranceOrder": 2,
+      "mobileOverflow": 2,
+      "ctaStates": 2
+    },
+    "elapsedSeconds": 40.632513583,
+    "inputTokens": 62563,
+    "cachedInputTokens": 46848,
+    "outputTokens": 1704,
+    "reasoningOutputTokens": 609,
+    "toolCallCount": 4,
+    "commandCallCount": 3,
+    "promptCount": 1,
+    "additionalPromptCount": 0,
+    "clarificationRequestCount": 0,
+    "regressionFailures": [],
+    "unsupportedAssumptions": [],
+    "changedFiles": [
+      "index.html",
+      "styles.css"
+    ],
+    "accessibility": {
+      "unnamedLinks": 0,
+      "duplicateIds": [],
+      "h1Count": 1,
+      "focusOrder": [
+        {
+          "text": "R\n        Relay",
+          "href": "#top",
+          "className": "brand",
+          "id": ""
+        },
+        {
+          "text": "Product",
+          "href": "#product",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Customers",
+          "href": "#proof",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Resources",
+          "href": "#resources",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Pricing",
+          "href": "#contact",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Start free",
+          "href": "#contact",
+          "className": "button button-secondary",
+          "id": "start-free"
+        },
+        {
+          "text": "See how it works",
+          "href": "#proof",
+          "className": "button button-primary",
+          "id": "see-how"
+        }
+      ],
+      "bothRequestedCtasKeyboardReachable": true,
+      "hoverTextContrast": 5.825,
+      "focusTextContrast": 5.825,
+      "focusIndicatorContrast": 16.1951,
+      "focusIndicatorVisible": true
+    },
+    "visual": {
+      "pixelDiff": {
+        "desktop": {
+          "comparable": true,
+          "actualSize": [
+            1440,
+            900
+          ],
+          "referenceSize": [
+            1440,
+            900
+          ],
+          "normalizedMae": 0.00030975853304284677
+        },
+        "mobile": {
+          "comparable": true,
+          "actualSize": [
+            390,
+            844
+          ],
+          "referenceSize": [
+            390,
+            844
+          ],
+          "normalizedMae": 0
+        }
+      },
+      "bboxDistance": {
+        "desktopMeanCssPx": 0,
+        "mobileMeanCssPx": 0
+      }
+    },
+    "rawCapability": {
+      "frameInspectionAttempted": false,
+      "audioExtractionAttempted": false
+    },
+    "capabilityAudit": {
+      "rawFrameExtractionSucceeded": false,
+      "rawTranscriptionAttempted": false,
+      "rawTranscriptionSucceeded": false,
+      "arecDocumentRead": false,
+      "arecMomentAssetInspected": false
+    },
+    "infrastructureFailure": false,
+    "leakageDetected": false,
+    "secretLeakDetected": false,
+    "hostMaterialDetected": false,
+    "unsafeSubmissionDetected": false
+  },
+  {
+    "trialId": "trial-01-raw_video",
+    "evaluationId": "eval-fbb0d5fd2b09",
+    "arm": "raw_video",
+    "replicate": 1,
+    "functionalScore": 2,
+    "maximumFunctionalScore": 12,
+    "strictCompletion": false,
+    "fixtureSmokePassed": true,
+    "requirementScores": {
+      "headline": 2,
+      "ctaHierarchy": 0,
+      "responsiveNavigation": 0,
+      "assuranceOrder": 0,
+      "mobileOverflow": 0,
+      "ctaStates": 0
+    },
+    "elapsedSeconds": 108.786169083,
+    "inputTokens": 298057,
+    "cachedInputTokens": 241920,
+    "outputTokens": 2981,
+    "reasoningOutputTokens": 1152,
+    "toolCallCount": 10,
+    "commandCallCount": 9,
+    "promptCount": 1,
+    "additionalPromptCount": 0,
+    "clarificationRequestCount": 0,
+    "regressionFailures": [],
+    "unsupportedAssumptions": [],
+    "changedFiles": [
+      "index.html"
+    ],
+    "accessibility": {
+      "unnamedLinks": 0,
+      "duplicateIds": [],
+      "h1Count": 1,
+      "focusOrder": [
+        {
+          "text": "R\n        Relay",
+          "href": "#top",
+          "className": "brand",
+          "id": ""
+        },
+        {
+          "text": "Product",
+          "href": "#product",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Customers",
+          "href": "#proof",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Resources",
+          "href": "#resources",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Pricing",
+          "href": "#contact",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Start free",
+          "href": "#contact",
+          "className": "button button-primary",
+          "id": "start-free"
+        },
+        {
+          "text": "See how it works",
+          "href": "#proof",
+          "className": "button button-primary",
+          "id": "see-how"
+        }
+      ],
+      "bothRequestedCtasKeyboardReachable": true,
+      "hoverTextContrast": 1.1322,
+      "focusTextContrast": 1.1322,
+      "focusIndicatorContrast": 4.719,
+      "focusIndicatorVisible": false
+    },
+    "visual": {
+      "pixelDiff": {
+        "desktop": {
+          "comparable": true,
+          "actualSize": [
+            1440,
+            900
+          ],
+          "referenceSize": [
+            1440,
+            900
+          ],
+          "normalizedMae": 0.002377341039296377
+        },
+        "mobile": {
+          "comparable": true,
+          "actualSize": [
+            390,
+            844
+          ],
+          "referenceSize": [
+            390,
+            844
+          ],
+          "normalizedMae": 0.2439629693170256
+        }
+      },
+      "bboxDistance": {
+        "desktopMeanCssPx": 0,
+        "mobileMeanCssPx": 42.9167
+      }
+    },
+    "rawCapability": {
+      "frameInspectionAttempted": true,
+      "audioExtractionAttempted": false
+    },
+    "capabilityAudit": {
+      "rawFrameExtractionSucceeded": true,
+      "rawTranscriptionAttempted": false,
+      "rawTranscriptionSucceeded": false,
+      "arecDocumentRead": false,
+      "arecMomentAssetInspected": false
+    },
+    "infrastructureFailure": false,
+    "leakageDetected": false,
+    "secretLeakDetected": false,
+    "hostMaterialDetected": false,
+    "unsafeSubmissionDetected": false
+  },
+  {
+    "trialId": "trial-01-transcript_only",
+    "evaluationId": "eval-e8a64590bbda",
+    "arm": "transcript_only",
+    "replicate": 1,
+    "functionalScore": 7,
+    "maximumFunctionalScore": 12,
+    "strictCompletion": false,
+    "fixtureSmokePassed": true,
+    "requirementScores": {
+      "headline": 0,
+      "ctaHierarchy": 2,
+      "responsiveNavigation": 1,
+      "assuranceOrder": 0,
+      "mobileOverflow": 2,
+      "ctaStates": 2
+    },
+    "elapsedSeconds": 51.417289666,
+    "inputTokens": 77401,
+    "cachedInputTokens": 47872,
+    "outputTokens": 2151,
+    "reasoningOutputTokens": 893,
+    "toolCallCount": 5,
+    "commandCallCount": 4,
+    "promptCount": 1,
+    "additionalPromptCount": 0,
+    "clarificationRequestCount": 0,
+    "regressionFailures": [],
+    "unsupportedAssumptions": [],
+    "changedFiles": [
+      "index.html",
+      "styles.css"
+    ],
+    "accessibility": {
+      "unnamedLinks": 0,
+      "duplicateIds": [],
+      "h1Count": 1,
+      "focusOrder": [
+        {
+          "text": "R\n        Relay",
+          "href": "#top",
+          "className": "brand",
+          "id": ""
+        },
+        {
+          "text": "Product",
+          "href": "#product",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Customers",
+          "href": "#proof",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Resources",
+          "href": "#resources",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Pricing",
+          "href": "#contact",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Start free",
+          "href": "#contact",
+          "className": "button button-secondary",
+          "id": "start-free"
+        },
+        {
+          "text": "See how it works",
+          "href": "#proof",
+          "className": "button button-primary",
+          "id": "see-how"
+        }
+      ],
+      "bothRequestedCtasKeyboardReachable": true,
+      "hoverTextContrast": 8.8368,
+      "focusTextContrast": 8.8368,
+      "focusIndicatorContrast": 16.1951,
+      "focusIndicatorVisible": true
+    },
+    "visual": {
+      "pixelDiff": {
+        "desktop": {
+          "comparable": true,
+          "actualSize": [
+            1440,
+            900
+          ],
+          "referenceSize": [
+            1440,
+            900
+          ],
+          "normalizedMae": 0.08558766642459452
+        },
+        "mobile": {
+          "comparable": true,
+          "actualSize": [
+            390,
+            844
+          ],
+          "referenceSize": [
+            390,
+            844
+          ],
+          "normalizedMae": 0.013044962141700365
+        }
+      },
+      "bboxDistance": {
+        "desktopMeanCssPx": 20.8984,
+        "mobileMeanCssPx": 0.125
+      }
+    },
+    "rawCapability": {
+      "frameInspectionAttempted": false,
+      "audioExtractionAttempted": false
+    },
+    "capabilityAudit": {
+      "rawFrameExtractionSucceeded": false,
+      "rawTranscriptionAttempted": false,
+      "rawTranscriptionSucceeded": false,
+      "arecDocumentRead": false,
+      "arecMomentAssetInspected": false
+    },
+    "infrastructureFailure": false,
+    "leakageDetected": false,
+    "secretLeakDetected": false,
+    "hostMaterialDetected": false,
+    "unsafeSubmissionDetected": false
+  },
+  {
+    "trialId": "trial-02-clipy_arec",
+    "evaluationId": "eval-a86a1838ce2c",
+    "arm": "clipy_arec",
+    "replicate": 2,
+    "functionalScore": 11,
+    "maximumFunctionalScore": 12,
+    "strictCompletion": false,
+    "fixtureSmokePassed": true,
+    "requirementScores": {
+      "headline": 2,
+      "ctaHierarchy": 2,
+      "responsiveNavigation": 2,
+      "assuranceOrder": 2,
+      "mobileOverflow": 2,
+      "ctaStates": 1
+    },
+    "elapsedSeconds": 71.920691666,
+    "inputTokens": 159789,
+    "cachedInputTokens": 129408,
+    "outputTokens": 2719,
+    "reasoningOutputTokens": 1265,
+    "toolCallCount": 6,
+    "commandCallCount": 5,
+    "promptCount": 1,
+    "additionalPromptCount": 0,
+    "clarificationRequestCount": 0,
+    "regressionFailures": [],
+    "unsupportedAssumptions": [],
+    "changedFiles": [
+      "index.html",
+      "styles.css"
+    ],
+    "accessibility": {
+      "unnamedLinks": 0,
+      "duplicateIds": [],
+      "h1Count": 1,
+      "focusOrder": [
+        {
+          "text": "R\n        Relay",
+          "href": "#top",
+          "className": "brand",
+          "id": ""
+        },
+        {
+          "text": "Product",
+          "href": "#product",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Customers",
+          "href": "#proof",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Resources",
+          "href": "#resources",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Pricing",
+          "href": "#contact",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Start free",
+          "href": "#contact",
+          "className": "button button-secondary",
+          "id": "start-free"
+        },
+        {
+          "text": "See how it works",
+          "href": "#proof",
+          "className": "button button-primary",
+          "id": "see-how"
+        }
+      ],
+      "bothRequestedCtasKeyboardReachable": true,
+      "hoverTextContrast": 5.825,
+      "focusTextContrast": 5.825,
+      "focusIndicatorContrast": 1.0902,
+      "focusIndicatorVisible": false
+    },
+    "visual": {
+      "pixelDiff": {
+        "desktop": {
+          "comparable": true,
+          "actualSize": [
+            1440,
+            900
+          ],
+          "referenceSize": [
+            1440,
+            900
+          ],
+          "normalizedMae": 0.00030975853304284677
+        },
+        "mobile": {
+          "comparable": true,
+          "actualSize": [
+            390,
+            844
+          ],
+          "referenceSize": [
+            390,
+            844
+          ],
+          "normalizedMae": 0
+        }
+      },
+      "bboxDistance": {
+        "desktopMeanCssPx": 0,
+        "mobileMeanCssPx": 0
+      }
+    },
+    "rawCapability": {
+      "frameInspectionAttempted": false,
+      "audioExtractionAttempted": false
+    },
+    "capabilityAudit": {
+      "rawFrameExtractionSucceeded": false,
+      "rawTranscriptionAttempted": false,
+      "rawTranscriptionSucceeded": false,
+      "arecDocumentRead": true,
+      "arecMomentAssetInspected": false
+    },
+    "infrastructureFailure": false,
+    "leakageDetected": false,
+    "secretLeakDetected": false,
+    "hostMaterialDetected": false,
+    "unsafeSubmissionDetected": false
+  },
+  {
+    "trialId": "trial-02-complete_spec",
+    "evaluationId": "eval-31750aee3f73",
+    "arm": "complete_spec",
+    "replicate": 2,
+    "functionalScore": 11,
+    "maximumFunctionalScore": 12,
+    "strictCompletion": false,
+    "fixtureSmokePassed": true,
+    "requirementScores": {
+      "headline": 2,
+      "ctaHierarchy": 2,
+      "responsiveNavigation": 2,
+      "assuranceOrder": 2,
+      "mobileOverflow": 1,
+      "ctaStates": 2
+    },
+    "elapsedSeconds": 41.061367584,
+    "inputTokens": 61958,
+    "cachedInputTokens": 51968,
+    "outputTokens": 1721,
+    "reasoningOutputTokens": 616,
+    "toolCallCount": 4,
+    "commandCallCount": 3,
+    "promptCount": 1,
+    "additionalPromptCount": 0,
+    "clarificationRequestCount": 0,
+    "regressionFailures": [],
+    "unsupportedAssumptions": [],
+    "changedFiles": [
+      "index.html",
+      "styles.css"
+    ],
+    "accessibility": {
+      "unnamedLinks": 0,
+      "duplicateIds": [],
+      "h1Count": 1,
+      "focusOrder": [
+        {
+          "text": "R\n        Relay",
+          "href": "#top",
+          "className": "brand",
+          "id": ""
+        },
+        {
+          "text": "Product",
+          "href": "#product",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Customers",
+          "href": "#proof",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Resources",
+          "href": "#resources",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Pricing",
+          "href": "#contact",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Start free",
+          "href": "#contact",
+          "className": "button button-secondary",
+          "id": "start-free"
+        },
+        {
+          "text": "See how it works",
+          "href": "#proof",
+          "className": "button button-primary",
+          "id": "see-how"
+        }
+      ],
+      "bothRequestedCtasKeyboardReachable": true,
+      "hoverTextContrast": 5.825,
+      "focusTextContrast": 5.825,
+      "focusIndicatorContrast": 16.1951,
+      "focusIndicatorVisible": true
+    },
+    "visual": {
+      "pixelDiff": {
+        "desktop": {
+          "comparable": true,
+          "actualSize": [
+            1440,
+            900
+          ],
+          "referenceSize": [
+            1440,
+            900
+          ],
+          "normalizedMae": 0.00030975853304284677
+        },
+        "mobile": {
+          "comparable": true,
+          "actualSize": [
+            390,
+            844
+          ],
+          "referenceSize": [
+            390,
+            844
+          ],
+          "normalizedMae": 0.20674390426969183
+        }
+      },
+      "bboxDistance": {
+        "desktopMeanCssPx": 0,
+        "mobileMeanCssPx": 51.6953
+      }
+    },
+    "rawCapability": {
+      "frameInspectionAttempted": false,
+      "audioExtractionAttempted": false
+    },
+    "capabilityAudit": {
+      "rawFrameExtractionSucceeded": false,
+      "rawTranscriptionAttempted": false,
+      "rawTranscriptionSucceeded": false,
+      "arecDocumentRead": false,
+      "arecMomentAssetInspected": false
+    },
+    "infrastructureFailure": false,
+    "leakageDetected": false,
+    "secretLeakDetected": false,
+    "hostMaterialDetected": false,
+    "unsafeSubmissionDetected": false
+  },
+  {
+    "trialId": "trial-02-raw_video",
+    "evaluationId": "eval-021f56f0be2f",
+    "arm": "raw_video",
+    "replicate": 2,
+    "functionalScore": 2,
+    "maximumFunctionalScore": 12,
+    "strictCompletion": false,
+    "fixtureSmokePassed": true,
+    "requirementScores": {
+      "headline": 2,
+      "ctaHierarchy": 0,
+      "responsiveNavigation": 0,
+      "assuranceOrder": 0,
+      "mobileOverflow": 0,
+      "ctaStates": 0
+    },
+    "elapsedSeconds": 93.355345375,
+    "inputTokens": 286535,
+    "cachedInputTokens": 246016,
+    "outputTokens": 3526,
+    "reasoningOutputTokens": 1370,
+    "toolCallCount": 9,
+    "commandCallCount": 8,
+    "promptCount": 1,
+    "additionalPromptCount": 0,
+    "clarificationRequestCount": 0,
+    "regressionFailures": [],
+    "unsupportedAssumptions": [],
+    "changedFiles": [
+      "index.html"
+    ],
+    "accessibility": {
+      "unnamedLinks": 0,
+      "duplicateIds": [],
+      "h1Count": 1,
+      "focusOrder": [
+        {
+          "text": "R\n        Relay",
+          "href": "#top",
+          "className": "brand",
+          "id": ""
+        },
+        {
+          "text": "Product",
+          "href": "#product",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Customers",
+          "href": "#proof",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Resources",
+          "href": "#resources",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Pricing",
+          "href": "#contact",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Start free",
+          "href": "#contact",
+          "className": "button button-primary",
+          "id": "start-free"
+        },
+        {
+          "text": "See how it works",
+          "href": "#proof",
+          "className": "button button-primary",
+          "id": "see-how"
+        }
+      ],
+      "bothRequestedCtasKeyboardReachable": true,
+      "hoverTextContrast": 1.1322,
+      "focusTextContrast": 1.1322,
+      "focusIndicatorContrast": 4.719,
+      "focusIndicatorVisible": false
+    },
+    "visual": {
+      "pixelDiff": {
+        "desktop": {
+          "comparable": true,
+          "actualSize": [
+            1440,
+            900
+          ],
+          "referenceSize": [
+            1440,
+            900
+          ],
+          "normalizedMae": 0.002377341039296377
+        },
+        "mobile": {
+          "comparable": true,
+          "actualSize": [
+            390,
+            844
+          ],
+          "referenceSize": [
+            390,
+            844
+          ],
+          "normalizedMae": 0.2439629693170256
+        }
+      },
+      "bboxDistance": {
+        "desktopMeanCssPx": 0,
+        "mobileMeanCssPx": 42.9167
+      }
+    },
+    "rawCapability": {
+      "frameInspectionAttempted": true,
+      "audioExtractionAttempted": false
+    },
+    "capabilityAudit": {
+      "rawFrameExtractionSucceeded": true,
+      "rawTranscriptionAttempted": false,
+      "rawTranscriptionSucceeded": false,
+      "arecDocumentRead": false,
+      "arecMomentAssetInspected": false
+    },
+    "infrastructureFailure": false,
+    "leakageDetected": false,
+    "secretLeakDetected": false,
+    "hostMaterialDetected": false,
+    "unsafeSubmissionDetected": false
+  },
+  {
+    "trialId": "trial-02-transcript_only",
+    "evaluationId": "eval-12f815d3aafd",
+    "arm": "transcript_only",
+    "replicate": 2,
+    "functionalScore": 5,
+    "maximumFunctionalScore": 12,
+    "strictCompletion": false,
+    "fixtureSmokePassed": true,
+    "requirementScores": {
+      "headline": 0,
+      "ctaHierarchy": 1,
+      "responsiveNavigation": 1,
+      "assuranceOrder": 0,
+      "mobileOverflow": 2,
+      "ctaStates": 1
+    },
+    "elapsedSeconds": 59.061970958,
+    "inputTokens": 83258,
+    "cachedInputTokens": 69888,
+    "outputTokens": 2160,
+    "reasoningOutputTokens": 885,
+    "toolCallCount": 6,
+    "commandCallCount": 5,
+    "promptCount": 1,
+    "additionalPromptCount": 0,
+    "clarificationRequestCount": 0,
+    "regressionFailures": [],
+    "unsupportedAssumptions": [],
+    "changedFiles": [
+      "index.html",
+      "styles.css"
+    ],
+    "accessibility": {
+      "unnamedLinks": 0,
+      "duplicateIds": [],
+      "h1Count": 1,
+      "focusOrder": [
+        {
+          "text": "R\n        Relay",
+          "href": "#top",
+          "className": "brand",
+          "id": ""
+        },
+        {
+          "text": "Product",
+          "href": "#product",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Customers",
+          "href": "#proof",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Resources",
+          "href": "#resources",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Pricing",
+          "href": "#contact",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Start free",
+          "href": "#contact",
+          "className": "button button-outline",
+          "id": "start-free"
+        },
+        {
+          "text": "See how it works",
+          "href": "#proof",
+          "className": "button button-primary",
+          "id": "see-how"
+        }
+      ],
+      "bothRequestedCtasKeyboardReachable": true,
+      "hoverTextContrast": 8.8368,
+      "focusTextContrast": 8.8368,
+      "focusIndicatorContrast": 1.0716,
+      "focusIndicatorVisible": false
+    },
+    "visual": {
+      "pixelDiff": {
+        "desktop": {
+          "comparable": true,
+          "actualSize": [
+            1440,
+            900
+          ],
+          "referenceSize": [
+            1440,
+            900
+          ],
+          "normalizedMae": 0.08558766642459452
+        },
+        "mobile": {
+          "comparable": true,
+          "actualSize": [
+            390,
+            844
+          ],
+          "referenceSize": [
+            390,
+            844
+          ],
+          "normalizedMae": 0.013044962141700365
+        }
+      },
+      "bboxDistance": {
+        "desktopMeanCssPx": 20.8984,
+        "mobileMeanCssPx": 0.125
+      }
+    },
+    "rawCapability": {
+      "frameInspectionAttempted": false,
+      "audioExtractionAttempted": false
+    },
+    "capabilityAudit": {
+      "rawFrameExtractionSucceeded": false,
+      "rawTranscriptionAttempted": false,
+      "rawTranscriptionSucceeded": false,
+      "arecDocumentRead": false,
+      "arecMomentAssetInspected": false
+    },
+    "infrastructureFailure": false,
+    "leakageDetected": false,
+    "secretLeakDetected": false,
+    "hostMaterialDetected": false,
+    "unsafeSubmissionDetected": false
+  },
+  {
+    "trialId": "trial-03-clipy_arec",
+    "evaluationId": "eval-f343a560d228",
+    "arm": "clipy_arec",
+    "replicate": 3,
+    "functionalScore": 12,
+    "maximumFunctionalScore": 12,
+    "strictCompletion": true,
+    "fixtureSmokePassed": true,
+    "requirementScores": {
+      "headline": 2,
+      "ctaHierarchy": 2,
+      "responsiveNavigation": 2,
+      "assuranceOrder": 2,
+      "mobileOverflow": 2,
+      "ctaStates": 2
+    },
+    "elapsedSeconds": 48.279300625,
+    "inputTokens": 110322,
+    "cachedInputTokens": 88704,
+    "outputTokens": 1690,
+    "reasoningOutputTokens": 406,
+    "toolCallCount": 5,
+    "commandCallCount": 4,
+    "promptCount": 1,
+    "additionalPromptCount": 0,
+    "clarificationRequestCount": 0,
+    "regressionFailures": [],
+    "unsupportedAssumptions": [],
+    "changedFiles": [
+      "index.html",
+      "styles.css"
+    ],
+    "accessibility": {
+      "unnamedLinks": 0,
+      "duplicateIds": [],
+      "h1Count": 1,
+      "focusOrder": [
+        {
+          "text": "R\n        Relay",
+          "href": "#top",
+          "className": "brand",
+          "id": ""
+        },
+        {
+          "text": "Product",
+          "href": "#product",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Customers",
+          "href": "#proof",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Resources",
+          "href": "#resources",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Pricing",
+          "href": "#contact",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Start free",
+          "href": "#contact",
+          "className": "button button-secondary",
+          "id": "start-free"
+        },
+        {
+          "text": "See how it works",
+          "href": "#proof",
+          "className": "button button-primary",
+          "id": "see-how"
+        }
+      ],
+      "bothRequestedCtasKeyboardReachable": true,
+      "hoverTextContrast": 5.825,
+      "focusTextContrast": 5.825,
+      "focusIndicatorContrast": 16.1951,
+      "focusIndicatorVisible": true
+    },
+    "visual": {
+      "pixelDiff": {
+        "desktop": {
+          "comparable": true,
+          "actualSize": [
+            1440,
+            900
+          ],
+          "referenceSize": [
+            1440,
+            900
+          ],
+          "normalizedMae": 0.00030975853304284677
+        },
+        "mobile": {
+          "comparable": true,
+          "actualSize": [
+            390,
+            844
+          ],
+          "referenceSize": [
+            390,
+            844
+          ],
+          "normalizedMae": 0
+        }
+      },
+      "bboxDistance": {
+        "desktopMeanCssPx": 0,
+        "mobileMeanCssPx": 0
+      }
+    },
+    "rawCapability": {
+      "frameInspectionAttempted": false,
+      "audioExtractionAttempted": false
+    },
+    "capabilityAudit": {
+      "rawFrameExtractionSucceeded": false,
+      "rawTranscriptionAttempted": false,
+      "rawTranscriptionSucceeded": false,
+      "arecDocumentRead": true,
+      "arecMomentAssetInspected": false
+    },
+    "infrastructureFailure": false,
+    "leakageDetected": false,
+    "secretLeakDetected": false,
+    "hostMaterialDetected": false,
+    "unsafeSubmissionDetected": false
+  },
+  {
+    "trialId": "trial-03-complete_spec",
+    "evaluationId": "eval-cd026a2b7c87",
+    "arm": "complete_spec",
+    "replicate": 3,
+    "functionalScore": 10,
+    "maximumFunctionalScore": 12,
+    "strictCompletion": false,
+    "fixtureSmokePassed": true,
+    "requirementScores": {
+      "headline": 2,
+      "ctaHierarchy": 2,
+      "responsiveNavigation": 2,
+      "assuranceOrder": 2,
+      "mobileOverflow": 1,
+      "ctaStates": 1
+    },
+    "elapsedSeconds": 44.955954041,
+    "inputTokens": 62090,
+    "cachedInputTokens": 47872,
+    "outputTokens": 1937,
+    "reasoningOutputTokens": 863,
+    "toolCallCount": 4,
+    "commandCallCount": 3,
+    "promptCount": 1,
+    "additionalPromptCount": 0,
+    "clarificationRequestCount": 0,
+    "regressionFailures": [],
+    "unsupportedAssumptions": [],
+    "changedFiles": [
+      "index.html",
+      "styles.css"
+    ],
+    "accessibility": {
+      "unnamedLinks": 0,
+      "duplicateIds": [],
+      "h1Count": 1,
+      "focusOrder": [
+        {
+          "text": "R\n        Relay",
+          "href": "#top",
+          "className": "brand",
+          "id": ""
+        },
+        {
+          "text": "Product",
+          "href": "#product",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Customers",
+          "href": "#proof",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Resources",
+          "href": "#resources",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Pricing",
+          "href": "#contact",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Start free",
+          "href": "#contact",
+          "className": "button button-secondary",
+          "id": "start-free"
+        },
+        {
+          "text": "See how it works",
+          "href": "#proof",
+          "className": "button button-primary",
+          "id": "see-how"
+        }
+      ],
+      "bothRequestedCtasKeyboardReachable": true,
+      "hoverTextContrast": 5.825,
+      "focusTextContrast": 5.825,
+      "focusIndicatorContrast": 1.0902,
+      "focusIndicatorVisible": true
+    },
+    "visual": {
+      "pixelDiff": {
+        "desktop": {
+          "comparable": true,
+          "actualSize": [
+            1440,
+            900
+          ],
+          "referenceSize": [
+            1440,
+            900
+          ],
+          "normalizedMae": 0.00030975853304284677
+        },
+        "mobile": {
+          "comparable": true,
+          "actualSize": [
+            390,
+            844
+          ],
+          "referenceSize": [
+            390,
+            844
+          ],
+          "normalizedMae": 0.23059063792406417
+        }
+      },
+      "bboxDistance": {
+        "desktopMeanCssPx": 0,
+        "mobileMeanCssPx": 53.362
+      }
+    },
+    "rawCapability": {
+      "frameInspectionAttempted": false,
+      "audioExtractionAttempted": false
+    },
+    "capabilityAudit": {
+      "rawFrameExtractionSucceeded": false,
+      "rawTranscriptionAttempted": false,
+      "rawTranscriptionSucceeded": false,
+      "arecDocumentRead": false,
+      "arecMomentAssetInspected": false
+    },
+    "infrastructureFailure": false,
+    "leakageDetected": false,
+    "secretLeakDetected": false,
+    "hostMaterialDetected": false,
+    "unsafeSubmissionDetected": false
+  },
+  {
+    "trialId": "trial-03-raw_video",
+    "evaluationId": "eval-548a481c2464",
+    "arm": "raw_video",
+    "replicate": 3,
+    "functionalScore": 2,
+    "maximumFunctionalScore": 12,
+    "strictCompletion": false,
+    "fixtureSmokePassed": true,
+    "requirementScores": {
+      "headline": 0,
+      "ctaHierarchy": 0,
+      "responsiveNavigation": 0,
+      "assuranceOrder": 0,
+      "mobileOverflow": 2,
+      "ctaStates": 0
+    },
+    "elapsedSeconds": 163.384031167,
+    "inputTokens": 385391,
+    "cachedInputTokens": 345728,
+    "outputTokens": 6017,
+    "reasoningOutputTokens": 3121,
+    "toolCallCount": 17,
+    "commandCallCount": 16,
+    "promptCount": 1,
+    "additionalPromptCount": 0,
+    "clarificationRequestCount": 0,
+    "regressionFailures": [],
+    "unsupportedAssumptions": [],
+    "changedFiles": [
+      "styles.css"
+    ],
+    "accessibility": {
+      "unnamedLinks": 0,
+      "duplicateIds": [],
+      "h1Count": 1,
+      "focusOrder": [
+        {
+          "text": "R\n        Relay",
+          "href": "#top",
+          "className": "brand",
+          "id": ""
+        },
+        {
+          "text": "Product",
+          "href": "#product",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Customers",
+          "href": "#proof",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Resources",
+          "href": "#resources",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Pricing",
+          "href": "#contact",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Start free",
+          "href": "#contact",
+          "className": "button button-primary",
+          "id": "start-free"
+        },
+        {
+          "text": "See how it works",
+          "href": "#proof",
+          "className": "button button-primary",
+          "id": "see-how"
+        }
+      ],
+      "bothRequestedCtasKeyboardReachable": true,
+      "hoverTextContrast": 5.825,
+      "focusTextContrast": 5.825,
+      "focusIndicatorContrast": 1.0902,
+      "focusIndicatorVisible": false
+    },
+    "visual": {
+      "pixelDiff": {
+        "desktop": {
+          "comparable": true,
+          "actualSize": [
+            1440,
+            900
+          ],
+          "referenceSize": [
+            1440,
+            900
+          ],
+          "normalizedMae": 0.08652473977245219
+        },
+        "mobile": {
+          "comparable": true,
+          "actualSize": [
+            390,
+            844
+          ],
+          "referenceSize": [
+            390,
+            844
+          ],
+          "normalizedMae": 0.013044962141700365
+        }
+      },
+      "bboxDistance": {
+        "desktopMeanCssPx": 20.8984,
+        "mobileMeanCssPx": 0.125
+      }
+    },
+    "rawCapability": {
+      "frameInspectionAttempted": true,
+      "audioExtractionAttempted": true
+    },
+    "capabilityAudit": {
+      "rawFrameExtractionSucceeded": true,
+      "rawTranscriptionAttempted": false,
+      "rawTranscriptionSucceeded": false,
+      "arecDocumentRead": false,
+      "arecMomentAssetInspected": false
+    },
+    "infrastructureFailure": false,
+    "leakageDetected": false,
+    "secretLeakDetected": false,
+    "hostMaterialDetected": false,
+    "unsafeSubmissionDetected": false
+  },
+  {
+    "trialId": "trial-03-transcript_only",
+    "evaluationId": "eval-72c7497ab212",
+    "arm": "transcript_only",
+    "replicate": 3,
+    "functionalScore": 7,
+    "maximumFunctionalScore": 12,
+    "strictCompletion": false,
+    "fixtureSmokePassed": true,
+    "requirementScores": {
+      "headline": 0,
+      "ctaHierarchy": 2,
+      "responsiveNavigation": 1,
+      "assuranceOrder": 0,
+      "mobileOverflow": 2,
+      "ctaStates": 2
+    },
+    "elapsedSeconds": 47.913170792,
+    "inputTokens": 77095,
+    "cachedInputTokens": 58880,
+    "outputTokens": 1884,
+    "reasoningOutputTokens": 694,
+    "toolCallCount": 5,
+    "commandCallCount": 4,
+    "promptCount": 1,
+    "additionalPromptCount": 0,
+    "clarificationRequestCount": 0,
+    "regressionFailures": [],
+    "unsupportedAssumptions": [],
+    "changedFiles": [
+      "index.html",
+      "styles.css"
+    ],
+    "accessibility": {
+      "unnamedLinks": 0,
+      "duplicateIds": [],
+      "h1Count": 1,
+      "focusOrder": [
+        {
+          "text": "R\n        Relay",
+          "href": "#top",
+          "className": "brand",
+          "id": ""
+        },
+        {
+          "text": "Product",
+          "href": "#product",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Customers",
+          "href": "#proof",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Resources",
+          "href": "#resources",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Pricing",
+          "href": "#contact",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Start free",
+          "href": "#contact",
+          "className": "button button-secondary",
+          "id": "start-free"
+        },
+        {
+          "text": "See how it works",
+          "href": "#proof",
+          "className": "button button-primary",
+          "id": "see-how"
+        }
+      ],
+      "bothRequestedCtasKeyboardReachable": true,
+      "hoverTextContrast": 5.825,
+      "focusTextContrast": 5.825,
+      "focusIndicatorContrast": 16.1951,
+      "focusIndicatorVisible": true
+    },
+    "visual": {
+      "pixelDiff": {
+        "desktop": {
+          "comparable": true,
+          "actualSize": [
+            1440,
+            900
+          ],
+          "referenceSize": [
+            1440,
+            900
+          ],
+          "normalizedMae": 0.08558766642459452
+        },
+        "mobile": {
+          "comparable": true,
+          "actualSize": [
+            390,
+            844
+          ],
+          "referenceSize": [
+            390,
+            844
+          ],
+          "normalizedMae": 0.013044962141700365
+        }
+      },
+      "bboxDistance": {
+        "desktopMeanCssPx": 20.8984,
+        "mobileMeanCssPx": 0.125
+      }
+    },
+    "rawCapability": {
+      "frameInspectionAttempted": false,
+      "audioExtractionAttempted": false
+    },
+    "capabilityAudit": {
+      "rawFrameExtractionSucceeded": false,
+      "rawTranscriptionAttempted": false,
+      "rawTranscriptionSucceeded": false,
+      "arecDocumentRead": false,
+      "arecMomentAssetInspected": false
+    },
+    "infrastructureFailure": false,
+    "leakageDetected": false,
+    "secretLeakDetected": false,
+    "hostMaterialDetected": false,
+    "unsafeSubmissionDetected": false
+  },
+  {
+    "trialId": "trial-04-clipy_arec",
+    "evaluationId": "eval-2e5ecca092bb",
+    "arm": "clipy_arec",
+    "replicate": 4,
+    "functionalScore": 12,
+    "maximumFunctionalScore": 12,
+    "strictCompletion": true,
+    "fixtureSmokePassed": true,
+    "requirementScores": {
+      "headline": 2,
+      "ctaHierarchy": 2,
+      "responsiveNavigation": 2,
+      "assuranceOrder": 2,
+      "mobileOverflow": 2,
+      "ctaStates": 2
+    },
+    "elapsedSeconds": 67.223861125,
+    "inputTokens": 197482,
+    "cachedInputTokens": 158720,
+    "outputTokens": 2648,
+    "reasoningOutputTokens": 838,
+    "toolCallCount": 7,
+    "commandCallCount": 5,
+    "promptCount": 1,
+    "additionalPromptCount": 0,
+    "clarificationRequestCount": 0,
+    "regressionFailures": [],
+    "unsupportedAssumptions": [],
+    "changedFiles": [
+      "index.html",
+      "styles.css"
+    ],
+    "accessibility": {
+      "unnamedLinks": 0,
+      "duplicateIds": [],
+      "h1Count": 1,
+      "focusOrder": [
+        {
+          "text": "R\n        Relay",
+          "href": "#top",
+          "className": "brand",
+          "id": ""
+        },
+        {
+          "text": "Product",
+          "href": "#product",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Customers",
+          "href": "#proof",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Resources",
+          "href": "#resources",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Pricing",
+          "href": "#contact",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Start free",
+          "href": "#contact",
+          "className": "button button-secondary",
+          "id": "start-free"
+        },
+        {
+          "text": "See how it works",
+          "href": "#proof",
+          "className": "button button-primary",
+          "id": "see-how"
+        }
+      ],
+      "bothRequestedCtasKeyboardReachable": true,
+      "hoverTextContrast": 8.8368,
+      "focusTextContrast": 8.8368,
+      "focusIndicatorContrast": 13.5288,
+      "focusIndicatorVisible": true
+    },
+    "visual": {
+      "pixelDiff": {
+        "desktop": {
+          "comparable": true,
+          "actualSize": [
+            1440,
+            900
+          ],
+          "referenceSize": [
+            1440,
+            900
+          ],
+          "normalizedMae": 0.00030975853304284677
+        },
+        "mobile": {
+          "comparable": true,
+          "actualSize": [
+            390,
+            844
+          ],
+          "referenceSize": [
+            390,
+            844
+          ],
+          "normalizedMae": 0
+        }
+      },
+      "bboxDistance": {
+        "desktopMeanCssPx": 0,
+        "mobileMeanCssPx": 0
+      }
+    },
+    "rawCapability": {
+      "frameInspectionAttempted": false,
+      "audioExtractionAttempted": false
+    },
+    "capabilityAudit": {
+      "rawFrameExtractionSucceeded": false,
+      "rawTranscriptionAttempted": false,
+      "rawTranscriptionSucceeded": false,
+      "arecDocumentRead": true,
+      "arecMomentAssetInspected": false
+    },
+    "infrastructureFailure": false,
+    "leakageDetected": false,
+    "secretLeakDetected": false,
+    "hostMaterialDetected": false,
+    "unsafeSubmissionDetected": false
+  },
+  {
+    "trialId": "trial-04-complete_spec",
+    "evaluationId": "eval-fa47d1e1f81f",
+    "arm": "complete_spec",
+    "replicate": 4,
+    "functionalScore": 11,
+    "maximumFunctionalScore": 12,
+    "strictCompletion": false,
+    "fixtureSmokePassed": true,
+    "requirementScores": {
+      "headline": 2,
+      "ctaHierarchy": 2,
+      "responsiveNavigation": 2,
+      "assuranceOrder": 2,
+      "mobileOverflow": 1,
+      "ctaStates": 2
+    },
+    "elapsedSeconds": 48.364235,
+    "inputTokens": 62746,
+    "cachedInputTokens": 44800,
+    "outputTokens": 2151,
+    "reasoningOutputTokens": 1067,
+    "toolCallCount": 4,
+    "commandCallCount": 3,
+    "promptCount": 1,
+    "additionalPromptCount": 0,
+    "clarificationRequestCount": 0,
+    "regressionFailures": [],
+    "unsupportedAssumptions": [],
+    "changedFiles": [
+      "index.html",
+      "styles.css"
+    ],
+    "accessibility": {
+      "unnamedLinks": 0,
+      "duplicateIds": [],
+      "h1Count": 1,
+      "focusOrder": [
+        {
+          "text": "R\n        Relay",
+          "href": "#top",
+          "className": "brand",
+          "id": ""
+        },
+        {
+          "text": "Product",
+          "href": "#product",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Customers",
+          "href": "#proof",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Resources",
+          "href": "#resources",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Pricing",
+          "href": "#contact",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Start free",
+          "href": "#contact",
+          "className": "button button-secondary",
+          "id": "start-free"
+        },
+        {
+          "text": "See how it works",
+          "href": "#proof",
+          "className": "button button-primary",
+          "id": "see-how"
+        }
+      ],
+      "bothRequestedCtasKeyboardReachable": true,
+      "hoverTextContrast": 5.825,
+      "focusTextContrast": 5.825,
+      "focusIndicatorContrast": 16.1951,
+      "focusIndicatorVisible": true
+    },
+    "visual": {
+      "pixelDiff": {
+        "desktop": {
+          "comparable": true,
+          "actualSize": [
+            1440,
+            900
+          ],
+          "referenceSize": [
+            1440,
+            900
+          ],
+          "normalizedMae": 0.00030975853304284677
+        },
+        "mobile": {
+          "comparable": true,
+          "actualSize": [
+            390,
+            844
+          ],
+          "referenceSize": [
+            390,
+            844
+          ],
+          "normalizedMae": 0.20674390426969183
+        }
+      },
+      "bboxDistance": {
+        "desktopMeanCssPx": 0,
+        "mobileMeanCssPx": 51.6953
+      }
+    },
+    "rawCapability": {
+      "frameInspectionAttempted": false,
+      "audioExtractionAttempted": false
+    },
+    "capabilityAudit": {
+      "rawFrameExtractionSucceeded": false,
+      "rawTranscriptionAttempted": false,
+      "rawTranscriptionSucceeded": false,
+      "arecDocumentRead": false,
+      "arecMomentAssetInspected": false
+    },
+    "infrastructureFailure": false,
+    "leakageDetected": false,
+    "secretLeakDetected": false,
+    "hostMaterialDetected": false,
+    "unsafeSubmissionDetected": false
+  },
+  {
+    "trialId": "trial-04-raw_video",
+    "evaluationId": "eval-153922f38d7c",
+    "arm": "raw_video",
+    "replicate": 4,
+    "functionalScore": 4,
+    "maximumFunctionalScore": 12,
+    "strictCompletion": false,
+    "fixtureSmokePassed": true,
+    "requirementScores": {
+      "headline": 2,
+      "ctaHierarchy": 0,
+      "responsiveNavigation": 0,
+      "assuranceOrder": 0,
+      "mobileOverflow": 2,
+      "ctaStates": 0
+    },
+    "elapsedSeconds": 188.884364458,
+    "inputTokens": 724970,
+    "cachedInputTokens": 644224,
+    "outputTokens": 5395,
+    "reasoningOutputTokens": 1757,
+    "toolCallCount": 13,
+    "commandCallCount": 12,
+    "promptCount": 1,
+    "additionalPromptCount": 0,
+    "clarificationRequestCount": 0,
+    "regressionFailures": [],
+    "unsupportedAssumptions": [],
+    "changedFiles": [
+      "index.html",
+      "styles.css"
+    ],
+    "accessibility": {
+      "unnamedLinks": 0,
+      "duplicateIds": [],
+      "h1Count": 1,
+      "focusOrder": [
+        {
+          "text": "R\n        Relay",
+          "href": "#top",
+          "className": "brand",
+          "id": ""
+        },
+        {
+          "text": "Product",
+          "href": "#product",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Customers",
+          "href": "#proof",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Resources",
+          "href": "#resources",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Pricing",
+          "href": "#contact",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Start free",
+          "href": "#contact",
+          "className": "button button-primary",
+          "id": "start-free"
+        },
+        {
+          "text": "See how it works",
+          "href": "#proof",
+          "className": "button button-primary",
+          "id": "see-how"
+        }
+      ],
+      "bothRequestedCtasKeyboardReachable": true,
+      "hoverTextContrast": 5.825,
+      "focusTextContrast": 5.825,
+      "focusIndicatorContrast": 1.0902,
+      "focusIndicatorVisible": false
+    },
+    "visual": {
+      "pixelDiff": {
+        "desktop": {
+          "comparable": true,
+          "actualSize": [
+            1440,
+            900
+          ],
+          "referenceSize": [
+            1440,
+            900
+          ],
+          "normalizedMae": 0.002377341039296377
+        },
+        "mobile": {
+          "comparable": true,
+          "actualSize": [
+            390,
+            844
+          ],
+          "referenceSize": [
+            390,
+            844
+          ],
+          "normalizedMae": 0
+        }
+      },
+      "bboxDistance": {
+        "desktopMeanCssPx": 0,
+        "mobileMeanCssPx": 0
+      }
+    },
+    "rawCapability": {
+      "frameInspectionAttempted": true,
+      "audioExtractionAttempted": false
+    },
+    "capabilityAudit": {
+      "rawFrameExtractionSucceeded": true,
+      "rawTranscriptionAttempted": false,
+      "rawTranscriptionSucceeded": false,
+      "arecDocumentRead": false,
+      "arecMomentAssetInspected": false
+    },
+    "infrastructureFailure": false,
+    "leakageDetected": false,
+    "secretLeakDetected": false,
+    "hostMaterialDetected": false,
+    "unsafeSubmissionDetected": false
+  },
+  {
+    "trialId": "trial-04-transcript_only",
+    "evaluationId": "eval-4eb7aaa826e7",
+    "arm": "transcript_only",
+    "replicate": 4,
+    "functionalScore": 7,
+    "maximumFunctionalScore": 12,
+    "strictCompletion": false,
+    "fixtureSmokePassed": true,
+    "requirementScores": {
+      "headline": 0,
+      "ctaHierarchy": 2,
+      "responsiveNavigation": 1,
+      "assuranceOrder": 0,
+      "mobileOverflow": 2,
+      "ctaStates": 2
+    },
+    "elapsedSeconds": 42.460836458,
+    "inputTokens": 77522,
+    "cachedInputTokens": 53760,
+    "outputTokens": 1728,
+    "reasoningOutputTokens": 482,
+    "toolCallCount": 6,
+    "commandCallCount": 4,
+    "promptCount": 1,
+    "additionalPromptCount": 0,
+    "clarificationRequestCount": 0,
+    "regressionFailures": [],
+    "unsupportedAssumptions": [],
+    "changedFiles": [
+      "index.html",
+      "styles.css"
+    ],
+    "accessibility": {
+      "unnamedLinks": 0,
+      "duplicateIds": [],
+      "h1Count": 1,
+      "focusOrder": [
+        {
+          "text": "R\n        Relay",
+          "href": "#top",
+          "className": "brand",
+          "id": ""
+        },
+        {
+          "text": "Product",
+          "href": "#product",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Customers",
+          "href": "#proof",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Resources",
+          "href": "#resources",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Pricing",
+          "href": "#contact",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Start free",
+          "href": "#contact",
+          "className": "button button-secondary",
+          "id": "start-free"
+        },
+        {
+          "text": "See how it works",
+          "href": "#proof",
+          "className": "button button-primary",
+          "id": "see-how"
+        }
+      ],
+      "bothRequestedCtasKeyboardReachable": true,
+      "hoverTextContrast": 8.8368,
+      "focusTextContrast": 8.8368,
+      "focusIndicatorContrast": 16.1951,
+      "focusIndicatorVisible": true
+    },
+    "visual": {
+      "pixelDiff": {
+        "desktop": {
+          "comparable": true,
+          "actualSize": [
+            1440,
+            900
+          ],
+          "referenceSize": [
+            1440,
+            900
+          ],
+          "normalizedMae": 0.08558766642459452
+        },
+        "mobile": {
+          "comparable": true,
+          "actualSize": [
+            390,
+            844
+          ],
+          "referenceSize": [
+            390,
+            844
+          ],
+          "normalizedMae": 0.013044962141700365
+        }
+      },
+      "bboxDistance": {
+        "desktopMeanCssPx": 20.8984,
+        "mobileMeanCssPx": 0.125
+      }
+    },
+    "rawCapability": {
+      "frameInspectionAttempted": false,
+      "audioExtractionAttempted": false
+    },
+    "capabilityAudit": {
+      "rawFrameExtractionSucceeded": false,
+      "rawTranscriptionAttempted": false,
+      "rawTranscriptionSucceeded": false,
+      "arecDocumentRead": false,
+      "arecMomentAssetInspected": false
+    },
+    "infrastructureFailure": false,
+    "leakageDetected": false,
+    "secretLeakDetected": false,
+    "hostMaterialDetected": false,
+    "unsafeSubmissionDetected": false
+  },
+  {
+    "trialId": "trial-05-clipy_arec",
+    "evaluationId": "eval-e5f42d874783",
+    "arm": "clipy_arec",
+    "replicate": 5,
+    "functionalScore": 12,
+    "maximumFunctionalScore": 12,
+    "strictCompletion": true,
+    "fixtureSmokePassed": true,
+    "requirementScores": {
+      "headline": 2,
+      "ctaHierarchy": 2,
+      "responsiveNavigation": 2,
+      "assuranceOrder": 2,
+      "mobileOverflow": 2,
+      "ctaStates": 2
+    },
+    "elapsedSeconds": 60.831327583,
+    "inputTokens": 197152,
+    "cachedInputTokens": 162816,
+    "outputTokens": 2287,
+    "reasoningOutputTokens": 702,
+    "toolCallCount": 7,
+    "commandCallCount": 5,
+    "promptCount": 1,
+    "additionalPromptCount": 0,
+    "clarificationRequestCount": 0,
+    "regressionFailures": [],
+    "unsupportedAssumptions": [],
+    "changedFiles": [
+      "index.html",
+      "styles.css"
+    ],
+    "accessibility": {
+      "unnamedLinks": 0,
+      "duplicateIds": [],
+      "h1Count": 1,
+      "focusOrder": [
+        {
+          "text": "R\n        Relay",
+          "href": "#top",
+          "className": "brand",
+          "id": ""
+        },
+        {
+          "text": "Product",
+          "href": "#product",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Customers",
+          "href": "#proof",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Resources",
+          "href": "#resources",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Pricing",
+          "href": "#contact",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Start free",
+          "href": "#contact",
+          "className": "button button-secondary",
+          "id": "start-free"
+        },
+        {
+          "text": "See how it works",
+          "href": "#proof",
+          "className": "button button-primary",
+          "id": "see-how"
+        }
+      ],
+      "bothRequestedCtasKeyboardReachable": true,
+      "hoverTextContrast": 5.825,
+      "focusTextContrast": 5.825,
+      "focusIndicatorContrast": 16.1951,
+      "focusIndicatorVisible": true
+    },
+    "visual": {
+      "pixelDiff": {
+        "desktop": {
+          "comparable": true,
+          "actualSize": [
+            1440,
+            900
+          ],
+          "referenceSize": [
+            1440,
+            900
+          ],
+          "normalizedMae": 0.00030975853304284677
+        },
+        "mobile": {
+          "comparable": true,
+          "actualSize": [
+            390,
+            844
+          ],
+          "referenceSize": [
+            390,
+            844
+          ],
+          "normalizedMae": 0
+        }
+      },
+      "bboxDistance": {
+        "desktopMeanCssPx": 0,
+        "mobileMeanCssPx": 0
+      }
+    },
+    "rawCapability": {
+      "frameInspectionAttempted": false,
+      "audioExtractionAttempted": false
+    },
+    "capabilityAudit": {
+      "rawFrameExtractionSucceeded": false,
+      "rawTranscriptionAttempted": false,
+      "rawTranscriptionSucceeded": false,
+      "arecDocumentRead": true,
+      "arecMomentAssetInspected": false
+    },
+    "infrastructureFailure": false,
+    "leakageDetected": false,
+    "secretLeakDetected": false,
+    "hostMaterialDetected": false,
+    "unsafeSubmissionDetected": false
+  },
+  {
+    "trialId": "trial-05-complete_spec",
+    "evaluationId": "eval-94c913e79087",
+    "arm": "complete_spec",
+    "replicate": 5,
+    "functionalScore": 11,
+    "maximumFunctionalScore": 12,
+    "strictCompletion": false,
+    "fixtureSmokePassed": true,
+    "requirementScores": {
+      "headline": 2,
+      "ctaHierarchy": 2,
+      "responsiveNavigation": 2,
+      "assuranceOrder": 2,
+      "mobileOverflow": 1,
+      "ctaStates": 2
+    },
+    "elapsedSeconds": 58.54291525,
+    "inputTokens": 94857,
+    "cachedInputTokens": 83200,
+    "outputTokens": 2516,
+    "reasoningOutputTokens": 1087,
+    "toolCallCount": 6,
+    "commandCallCount": 4,
+    "promptCount": 1,
+    "additionalPromptCount": 0,
+    "clarificationRequestCount": 0,
+    "regressionFailures": [],
+    "unsupportedAssumptions": [],
+    "changedFiles": [
+      "index.html",
+      "styles.css"
+    ],
+    "accessibility": {
+      "unnamedLinks": 0,
+      "duplicateIds": [],
+      "h1Count": 1,
+      "focusOrder": [
+        {
+          "text": "R\n        Relay",
+          "href": "#top",
+          "className": "brand",
+          "id": ""
+        },
+        {
+          "text": "Product",
+          "href": "#product",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Customers",
+          "href": "#proof",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Resources",
+          "href": "#resources",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Pricing",
+          "href": "#contact",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Start free",
+          "href": "#contact",
+          "className": "button button-secondary",
+          "id": "start-free"
+        },
+        {
+          "text": "See how it works",
+          "href": "#proof",
+          "className": "button button-primary",
+          "id": "see-how"
+        }
+      ],
+      "bothRequestedCtasKeyboardReachable": true,
+      "hoverTextContrast": 5.825,
+      "focusTextContrast": 5.825,
+      "focusIndicatorContrast": 16.1951,
+      "focusIndicatorVisible": true
+    },
+    "visual": {
+      "pixelDiff": {
+        "desktop": {
+          "comparable": true,
+          "actualSize": [
+            1440,
+            900
+          ],
+          "referenceSize": [
+            1440,
+            900
+          ],
+          "normalizedMae": 0.00030975853304284677
+        },
+        "mobile": {
+          "comparable": true,
+          "actualSize": [
+            390,
+            844
+          ],
+          "referenceSize": [
+            390,
+            844
+          ],
+          "normalizedMae": 0.21647735134074694
+        }
+      },
+      "bboxDistance": {
+        "desktopMeanCssPx": 0,
+        "mobileMeanCssPx": 52.5286
+      }
+    },
+    "rawCapability": {
+      "frameInspectionAttempted": false,
+      "audioExtractionAttempted": false
+    },
+    "capabilityAudit": {
+      "rawFrameExtractionSucceeded": false,
+      "rawTranscriptionAttempted": false,
+      "rawTranscriptionSucceeded": false,
+      "arecDocumentRead": false,
+      "arecMomentAssetInspected": false
+    },
+    "infrastructureFailure": false,
+    "leakageDetected": false,
+    "secretLeakDetected": false,
+    "hostMaterialDetected": false,
+    "unsafeSubmissionDetected": false
+  },
+  {
+    "trialId": "trial-05-raw_video",
+    "evaluationId": "eval-fac6ea602d61",
+    "arm": "raw_video",
+    "replicate": 5,
+    "functionalScore": 2,
+    "maximumFunctionalScore": 12,
+    "strictCompletion": false,
+    "fixtureSmokePassed": true,
+    "requirementScores": {
+      "headline": 0,
+      "ctaHierarchy": 0,
+      "responsiveNavigation": 0,
+      "assuranceOrder": 0,
+      "mobileOverflow": 2,
+      "ctaStates": 0
+    },
+    "elapsedSeconds": 182.73904,
+    "inputTokens": 392480,
+    "cachedInputTokens": 361344,
+    "outputTokens": 6873,
+    "reasoningOutputTokens": 4220,
+    "toolCallCount": 16,
+    "commandCallCount": 15,
+    "promptCount": 1,
+    "additionalPromptCount": 0,
+    "clarificationRequestCount": 0,
+    "regressionFailures": [],
+    "unsupportedAssumptions": [],
+    "changedFiles": [
+      "index.html",
+      "styles.css"
+    ],
+    "accessibility": {
+      "unnamedLinks": 0,
+      "duplicateIds": [],
+      "h1Count": 1,
+      "focusOrder": [
+        {
+          "text": "R\n        Relay",
+          "href": "#top",
+          "className": "brand",
+          "id": ""
+        },
+        {
+          "text": "Product",
+          "href": "#product",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Customers",
+          "href": "#proof",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Resources",
+          "href": "#resources",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Pricing",
+          "href": "#contact",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Start free",
+          "href": "#contact",
+          "className": "button button-primary",
+          "id": "start-free"
+        },
+        {
+          "text": "See how it works",
+          "href": "#proof",
+          "className": "button button-secondary",
+          "id": "see-how"
+        }
+      ],
+      "bothRequestedCtasKeyboardReachable": true,
+      "hoverTextContrast": 5.825,
+      "focusTextContrast": 5.825,
+      "focusIndicatorContrast": 1.0902,
+      "focusIndicatorVisible": false
+    },
+    "visual": {
+      "pixelDiff": {
+        "desktop": {
+          "comparable": true,
+          "actualSize": [
+            1440,
+            900
+          ],
+          "referenceSize": [
+            1440,
+            900
+          ],
+          "normalizedMae": 0.08523665678205439
+        },
+        "mobile": {
+          "comparable": true,
+          "actualSize": [
+            390,
+            844
+          ],
+          "referenceSize": [
+            390,
+            844
+          ],
+          "normalizedMae": 0.013044962141700365
+        }
+      },
+      "bboxDistance": {
+        "desktopMeanCssPx": 20.8984,
+        "mobileMeanCssPx": 0.125
+      }
+    },
+    "rawCapability": {
+      "frameInspectionAttempted": true,
+      "audioExtractionAttempted": true
+    },
+    "capabilityAudit": {
+      "rawFrameExtractionSucceeded": true,
+      "rawTranscriptionAttempted": true,
+      "rawTranscriptionSucceeded": false,
+      "arecDocumentRead": false,
+      "arecMomentAssetInspected": false
+    },
+    "infrastructureFailure": false,
+    "leakageDetected": false,
+    "secretLeakDetected": false,
+    "hostMaterialDetected": false,
+    "unsafeSubmissionDetected": false
+  },
+  {
+    "trialId": "trial-05-transcript_only",
+    "evaluationId": "eval-86418025639e",
+    "arm": "transcript_only",
+    "replicate": 5,
+    "functionalScore": 3,
+    "maximumFunctionalScore": 12,
+    "strictCompletion": false,
+    "fixtureSmokePassed": true,
+    "requirementScores": {
+      "headline": 0,
+      "ctaHierarchy": 0,
+      "responsiveNavigation": 1,
+      "assuranceOrder": 0,
+      "mobileOverflow": 2,
+      "ctaStates": 0
+    },
+    "elapsedSeconds": 46.468140333,
+    "inputTokens": 76007,
+    "cachedInputTokens": 44032,
+    "outputTokens": 1953,
+    "reasoningOutputTokens": 667,
+    "toolCallCount": 5,
+    "commandCallCount": 4,
+    "promptCount": 1,
+    "additionalPromptCount": 0,
+    "clarificationRequestCount": 0,
+    "regressionFailures": [],
+    "unsupportedAssumptions": [],
+    "changedFiles": [
+      "index.html",
+      "styles.css"
+    ],
+    "accessibility": {
+      "unnamedLinks": 0,
+      "duplicateIds": [],
+      "h1Count": 1,
+      "focusOrder": [
+        {
+          "text": "R\n        Relay",
+          "href": "#top",
+          "className": "brand",
+          "id": ""
+        },
+        {
+          "text": "Product",
+          "href": "#product",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Customers",
+          "href": "#proof",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Resources",
+          "href": "#resources",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Pricing",
+          "href": "#contact",
+          "className": "",
+          "id": ""
+        },
+        {
+          "text": "Start free",
+          "href": "#contact",
+          "className": "button button-primary",
+          "id": "start-free"
+        },
+        {
+          "text": "See how it works",
+          "href": "#proof",
+          "className": "button button-primary",
+          "id": "see-how"
+        }
+      ],
+      "bothRequestedCtasKeyboardReachable": true,
+      "hoverTextContrast": 1.517,
+      "focusTextContrast": 2.3764,
+      "focusIndicatorContrast": 16.1951,
+      "focusIndicatorVisible": true
+    },
+    "visual": {
+      "pixelDiff": {
+        "desktop": {
+          "comparable": true,
+          "actualSize": [
+            1440,
+            900
+          ],
+          "referenceSize": [
+            1440,
+            900
+          ],
+          "normalizedMae": 0.08522293835229565
+        },
+        "mobile": {
+          "comparable": true,
+          "actualSize": [
+            390,
+            844
+          ],
+          "referenceSize": [
+            390,
+            844
+          ],
+          "normalizedMae": 0.013044962141700365
+        }
+      },
+      "bboxDistance": {
+        "desktopMeanCssPx": 20.8984,
+        "mobileMeanCssPx": 0.125
+      }
+    },
+    "rawCapability": {
+      "frameInspectionAttempted": false,
+      "audioExtractionAttempted": false
+    },
+    "capabilityAudit": {
+      "rawFrameExtractionSucceeded": false,
+      "rawTranscriptionAttempted": false,
+      "rawTranscriptionSucceeded": false,
+      "arecDocumentRead": false,
+      "arecMomentAssetInspected": false
+    },
+    "infrastructureFailure": false,
+    "leakageDetected": false,
+    "secretLeakDetected": false,
+    "hostMaterialDetected": false,
+    "unsafeSubmissionDetected": false
+  }
+]

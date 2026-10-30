@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "runId": "trial-01-raw_video",
+  "pilot": false,
+  "arm": "raw_video",
+  "replicate": "1",
+  "protocolBaseCommit": "8cd02918ac4e4cea41125e3df78442d8aa099020",
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "medium",
+  "promptCount": 1,
+  "startedAt": "2026-08-17T11:51:38.717Z",
+  "endedAt": "2026-08-17T11:53:27.503Z",
+  "elapsedSeconds": 108.786169083,
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "leakageDetected": false,
+  "filesystemCanaryHitCount": 0,
+  "secretLeakDetected": false,
+  "secretFilesystemHitCount": 0,
+  "hostMaterialDetected": false,
+  "hostMaterialFilesystemHitCount": 0,
+  "authRemovedAfterThreadStart": true,
+  "unsafeSubmissionDetected": false,
+  "unsafeSubmissionEntryCount": 0,
+  "artifactRedactions": {
+    "hostIdentityOccurrences": 1,
+    "hostPathOccurrences": 0,
+    "nonStudyGlobalCommandOutputs": 0
+  },
+  "infrastructureFailure": false,
+  "conditionManifestSha256": "00bb9300062d6a3f4dcda5b95ad5e52ad7b4aa5c0271dd2653959c1179d9613b",
+  "patchBytes": 622,
+  "additionalPromptCount": 0,
+  "clarificationRequestCount": 0,
+  "status": [
+    "M index.html"
+  ],
+  "eventCount": 27,
+  "toolCallCount": 10,
+  "commandCallCount": 9,
+  "commands": [
+    "/bin/zsh -lc \"pwd && rg --files -g '\"'!*node_modules*'\"' | sed -n '1,200p'\"",
+    "/bin/zsh -lc \"sed -n '1,240p' evidence/README.md && printf '\\\\n--- index ---\\\\n' && sed -n '1,260p' index.html && printf '\\\\n--- css ---\\\\n' && sed -n '1,320p' styles.css && printf '\\\\n--- js ---\\\\n' && sed -n '1,260p' app.js && printf '\\\\n--- package ---\\\\n' && cat package.json\"",
+    "/bin/zsh -lc 'ffprobe -v error -show_entries format=duration:stream=width,height,avg_frame_rate -of default=noprint_wrappers=1 evidence/relay-design-review.mp4 && mkdir -p evidence/.frames && ffmpeg -hide_banner -loglevel error -i evidence/relay-design-review.mp4 -vf \"fps=1\" evidence/.frames/frame-%03d.png && rg --files evidence/.frames'",
+    "/bin/zsh -lc \"montage evidence/.frames/frame-*.png -thumbnail 288x180 -tile 5x9 -geometry +4+18 -set label '%t' evidence/.frames/contact-sheet.png\"",
+    "/bin/zsh -lc 'ffmpeg -hide_banner -loglevel error -framerate 1 -i evidence/.frames/frame-%03d.png -vf \"scale=288:180,tile=5x9:padding=4:margin=4\" -frames:v 1 evidence/.frames/contact-sheet.png && ls -lh evidence/.frames/contact-sheet.png'",
+    "/bin/zsh -lc 'for file in evidence/.frames/frame-*.png; do out=$(tesseract \"$file\" stdout 2>/dev/null | rg -i '\"'move|button|pricing|scroll|assurance|meeting|contrast|nav|underline|resource|cancel|card|work|style|change|make|light|dark' || true); if [ -n \\\"\"'$out\" ]; then echo \"$file\"; echo \"$out\"; fi; done'",
+    "/bin/zsh -lc \"sed -n '1,320p' tests/smoke.mjs && git status --short && git diff -- index.html styles.css app.js\"",
+    "/bin/zsh -lc 'find evidence/.frames -type f -delete\nrmdir evidence/.frames'",
+    "/bin/zsh -lc 'npm test\ngit diff --check\ngit status --short\ngit diff -- index.html'"
+  ],
+  "usage": {
+    "input_tokens": 298057,
+    "cached_input_tokens": 241920,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2981,
+    "reasoning_output_tokens": 1152
+  },
+  "modelTurnCompleted": true,
+  "rawCapability": {
+    "frameInspectionAttempted": true,
+    "audioExtractionAttempted": false
+  }
+}

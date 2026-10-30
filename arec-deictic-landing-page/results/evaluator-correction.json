@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "correctionCommit": "410f2830a98e9cc04c1fc3f1212dfc3d4364caed",
+  "reason": "The initial source recognizers rejected behavior-equivalent CSS syntax.",
+  "rubricChanged": false,
+  "browserBehaviorChanged": false,
+  "opaqueEvaluationIdsChanged": false,
+  "trialsCompared": 20,
+  "exactNonSourceEvidenceMatches": 20,
+  "armSummaries": {
+    "clipy_arec": {
+      "trials": 5,
+      "initialMean": 9,
+      "correctedMean": 11.8,
+      "initialStrictCompletions": 0,
+      "correctedStrictCompletions": 4
+    },
+    "complete_spec": {
+      "trials": 5,
+      "initialMean": 9.2,
+      "correctedMean": 11,
+      "initialStrictCompletions": 0,
+      "correctedStrictCompletions": 1
+    },
+    "raw_video": {
+      "trials": 5,
+      "initialMean": 1.8,
+      "correctedMean": 2.4,
+      "initialStrictCompletions": 0,
+      "correctedStrictCompletions": 0
+    },
+    "transcript_only": {
+      "trials": 5,
+      "initialMean": 4.4,
+      "correctedMean": 5.8,
+      "initialStrictCompletions": 0,
+      "correctedStrictCompletions": 0
+    }
+  },
+  "records": [
+    {
+      "trialId": "trial-01-clipy_arec",
+      "evaluationId": "eval-7f1a3f016976",
+      "arm": "clipy_arec",
+      "initialFunctionalScore": 9,
+      "correctedFunctionalScore": 12,
+      "scoreDelta": 3,
+      "initialStrictCompletion": false,
+      "correctedStrictCompletion": true,
+      "changedSourcePoints": [
+        "responsiveNavigation",
+        "mobileOverflow",
+        "ctaStates"
+      ]
+    },
+    {
+      "trialId": "trial-01-complete_spec",
+      "evaluationId": "eval-a3dcd42f632b",
+      "arm": "complete_spec",
+      "initialFunctionalScore": 9,
+      "correctedFunctionalScore": 12,
+      "scoreDelta": 3,
+      "initialStrictCompletion": false,
+      "correctedStrictCompletion": true,
+      "changedSourcePoints": [
+        "responsiveNavigation",
+        "mobileOverflow",
+        "ctaStates"
+      ]
+    },
+    {
+      "trialId": "trial-01-raw_video",
+      "evaluationId": "eval-fbb0d5fd2b09",
+      "arm": "raw_video",
+      "initialFunctionalScore": 2,
+      "correctedFunctionalScore": 2,
+      "scoreDelta": 0,
+      "initialStrictCompletion": false,
+      "correctedStrictCompletion": false,
+      "changedSourcePoints": []
+    },
+    {
+      "trialId": "trial-01-transcript_only",
+      "evaluationId": "eval-e8a64590bbda",
+      "arm": "transcript_only",
+      "initialFunctionalScore": 5,
+      "correctedFunctionalScore": 7,
+      "scoreDelta": 2,
+      "initialStrictCompletion": false,
+      "correctedStrictCompletion": false,
+      "changedSourcePoints": [
+        "mobileOverflow",
+        "ctaStates"
+      ]
+    },
+    {
+      "trialId": "trial-02-clipy_arec",
+      "evaluationId": "eval-a86a1838ce2c",
+      "arm": "clipy_arec",
+      "initialFunctionalScore": 8,
+      "correctedFunctionalScore": 11,
+      "scoreDelta": 3,
+      "initialStrictCompletion": false,
+      "correctedStrictCompletion": false,
+      "changedSourcePoints": [
+        "responsiveNavigation",
+        "mobileOverflow",
+        "ctaStates"
+      ]
+    },
+    {
+      "trialId": "trial-02-complete_spec",
+      "evaluationId": "eval-31750aee3f73",
+      "arm": "complete_spec",
+      "initialFunctionalScore": 10,
+      "correctedFunctionalScore": 11,
+      "scoreDelta": 1,
+      "initialStrictCompletion": false,
+      "correctedStrictCompletion": false,
+      "changedSourcePoints": [
+        "ctaStates"
+      ]
+    },
+    {
+      "trialId": "trial-02-raw_video",
+      "evaluationId": "eval-021f56f0be2f",
+      "arm": "raw_video",
+      "initialFunctionalScore": 2,
+      "correctedFunctionalScore": 2,
+      "scoreDelta": 0,
+      "initialStrictCompletion": false,
+      "correctedStrictCompletion": false,
+      "changedSourcePoints": []
+    },
+    {
+      "trialId": "trial-02-transcript_only",
+      "evaluationId": "eval-12f815d3aafd",
+      "arm": "transcript_only",
+      "initialFunctionalScore": 4,
+      "correctedFunctionalScore": 5,
+      "scoreDelta": 1,
+      "initialStrictCompletion": false,
+      "correctedStrictCompletion": false,
+      "changedSourcePoints": [
+        "ctaStates"
+      ]
+    },
+    {
+      "trialId": "trial-03-clipy_arec",
+      "evaluationId": "eval-f343a560d228",
+      "arm": "clipy_arec",
+      "initialFunctionalScore": 9,
+      "correctedFunctionalScore": 12,
+      "scoreDelta": 3,
+      "initialStrictCompletion": false,
+      "correctedStrictCompletion": true,
+      "changedSourcePoints": [
+        "responsiveNavigation",
+        "mobileOverflow",
+        "ctaStates"
+      ]
+    },
+    {
+      "trialId": "trial-03-complete_spec",
+      "evaluationId": "eval-cd026a2b7c87",
+      "arm": "complete_spec",
+      "initialFunctionalScore": 9,
+      "correctedFunctionalScore": 10,
+      "scoreDelta": 1,
+      "initialStrictCompletion": false,
+      "correctedStrictCompletion": false,
+      "changedSourcePoints": [
+        "responsiveNavigation"
+      ]
+    },
+    {
+      "trialId": "trial-03-raw_video",
+      "evaluationId": "eval-548a481c2464",
+      "arm": "raw_video",
+      "initialFunctionalScore": 1,
+      "correctedFunctionalScore": 2,
+      "scoreDelta": 1,
+      "initialStrictCompletion": false,
+      "correctedStrictCompletion": false,
+      "changedSourcePoints": [
+        "mobileOverflow"
+      ]
+    },
+    {
+      "trialId": "trial-03-transcript_only",
+      "evaluationId": "eval-72c7497ab212",
+      "arm": "transcript_only",
+      "initialFunctionalScore": 5,
+      "correctedFunctionalScore": 7,
+      "scoreDelta": 2,
+      "initialStrictCompletion": false,
+      "correctedStrictCompletion": false,
+      "changedSourcePoints": [
+        "mobileOverflow",
+        "ctaStates"
+      ]
+    },
+    {
+      "trialId": "trial-04-clipy_arec",
+      "evaluationId": "eval-2e5ecca092bb",
+      "arm": "clipy_arec",
+      "initialFunctionalScore": 10,
+      "correctedFunctionalScore": 12,
+      "scoreDelta": 2,
+      "initialStrictCompletion": false,
+      "correctedStrictCompletion": true,
+      "changedSourcePoints": [
+        "responsiveNavigation",
+        "ctaStates"
+      ]
+    },
+    {
+      "trialId": "trial-04-complete_spec",
+      "evaluationId": "eval-fa47d1e1f81f",
+      "arm": "complete_spec",
+      "initialFunctionalScore": 9,
+      "correctedFunctionalScore": 11,
+      "scoreDelta": 2,
+      "initialStrictCompletion": false,
+      "correctedStrictCompletion": false,
+      "changedSourcePoints": [
+        "responsiveNavigation",
+        "ctaStates"
+      ]
+    },
+    {
+      "trialId": "trial-04-raw_video",
+      "evaluationId": "eval-153922f38d7c",
+      "arm": "raw_video",
+      "initialFunctionalScore": 3,
+      "correctedFunctionalScore": 4,
+      "scoreDelta": 1,
+      "initialStrictCompletion": false,
+      "correctedStrictCompletion": false,
+      "changedSourcePoints": [
+        "mobileOverflow"
+      ]
+    },
+    {
+      "trialId": "trial-04-transcript_only",
+      "evaluationId": "eval-4eb7aaa826e7",
+      "arm": "transcript_only",
+      "initialFunctionalScore": 5,
+      "correctedFunctionalScore": 7,
+      "scoreDelta": 2,
+      "initialStrictCompletion": false,
+      "correctedStrictCompletion": false,
+      "changedSourcePoints": [
+        "mobileOverflow",
+        "ctaStates"
+      ]
+    },
+    {
+      "trialId": "trial-05-clipy_arec",
+      "evaluationId": "eval-e5f42d874783",
+      "arm": "clipy_arec",
+      "initialFunctionalScore": 9,
+      "correctedFunctionalScore": 12,
+      "scoreDelta": 3,
+      "initialStrictCompletion": false,
+      "correctedStrictCompletion": true,
+      "changedSourcePoints": [
+        "responsiveNavigation",
+        "mobileOverflow",
+        "ctaStates"
+      ]
+    },
+    {
+      "trialId": "trial-05-complete_spec",
+      "evaluationId": "eval-94c913e79087",
+      "arm": "complete_spec",
+      "initialFunctionalScore": 9,
+      "correctedFunctionalScore": 11,
+      "scoreDelta": 2,
+      "initialStrictCompletion": false,
+      "correctedStrictCompletion": false,
+      "changedSourcePoints": [
+        "responsiveNavigation",
+        "ctaStates"
+      ]
+    },
+    {
+      "trialId": "trial-05-raw_video",
+      "evaluationId": "eval-fac6ea602d61",
+      "arm": "raw_video",
+      "initialFunctionalScore": 1,
+      "correctedFunctionalScore": 2,
+      "scoreDelta": 1,
+      "initialStrictCompletion": false,
+      "correctedStrictCompletion": false,
+      "changedSourcePoints": [
+        "mobileOverflow"
+      ]
+    },
+    {
+      "trialId": "trial-05-transcript_only",
+      "evaluationId": "eval-86418025639e",
+      "arm": "transcript_only",
+      "initialFunctionalScore": 3,
+      "correctedFunctionalScore": 3,
+      "scoreDelta": 0,
+      "initialStrictCompletion": false,
+      "correctedStrictCompletion": false,
+      "changedSourcePoints": []
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+AREC-BENCHMARK-HIDDEN-CANARY-9d3f2a66c540
+
+If this string appears in a trial output, the trial read a denied evaluator
+path and is excluded under the frozen leakage rule.

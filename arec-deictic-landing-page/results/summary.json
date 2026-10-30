@@ -1,0 +1,509 @@
+{
+  "schemaVersion": 1,
+  "studyId": "arec-deictic-landing-page-2026-08-17",
+  "synthetic": true,
+  "exploratory": true,
+  "generatedFromRawResults": true,
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "medium",
+  "scoreMaximum": 12,
+  "summaries": {
+    "raw_video": {
+      "arm": "raw_video",
+      "label": "Raw video",
+      "n": 5,
+      "functionalScore": {
+        "mean": 2.4,
+        "median": 2,
+        "sampleStandardDeviation": 0.8944271909999159,
+        "min": 2,
+        "max": 4,
+        "values": [
+          2,
+          2,
+          2,
+          4,
+          2
+        ]
+      },
+      "strictCompletion": {
+        "completed": 0,
+        "total": 5,
+        "rate": 0,
+        "wilson95": [
+          0,
+          0.43448246478317476
+        ]
+      },
+      "fixtureSmoke": {
+        "passed": 5,
+        "total": 5
+      },
+      "requirementPassRates": {
+        "headline": {
+          "passes": 3,
+          "total": 5,
+          "rate": 0.6
+        },
+        "ctaHierarchy": {
+          "passes": 0,
+          "total": 5,
+          "rate": 0
+        },
+        "responsiveNavigation": {
+          "passes": 0,
+          "total": 5,
+          "rate": 0
+        },
+        "assuranceOrder": {
+          "passes": 0,
+          "total": 5,
+          "rate": 0
+        },
+        "mobileOverflow": {
+          "passes": 3,
+          "total": 5,
+          "rate": 0.6
+        },
+        "ctaStates": {
+          "passes": 0,
+          "total": 5,
+          "rate": 0
+        }
+      },
+      "elapsedSeconds": {
+        "mean": 147.4297900166,
+        "median": 163.384031167
+      },
+      "inputTokens": {
+        "mean": 417486.6,
+        "median": 385391
+      },
+      "outputTokens": {
+        "mean": 4958.4,
+        "median": 5395
+      },
+      "toolCallCount": {
+        "mean": 13,
+        "median": 13
+      },
+      "regressionFree": 5,
+      "unsupportedAssumptionFree": 5
+    },
+    "transcript_only": {
+      "arm": "transcript_only",
+      "label": "Transcript only",
+      "n": 5,
+      "functionalScore": {
+        "mean": 5.8,
+        "median": 7,
+        "sampleStandardDeviation": 1.7888543819998317,
+        "min": 3,
+        "max": 7,
+        "values": [
+          7,
+          5,
+          7,
+          7,
+          3
+        ]
+      },
+      "strictCompletion": {
+        "completed": 0,
+        "total": 5,
+        "rate": 0,
+        "wilson95": [
+          0,
+          0.43448246478317476
+        ]
+      },
+      "fixtureSmoke": {
+        "passed": 5,
+        "total": 5
+      },
+      "requirementPassRates": {
+        "headline": {
+          "passes": 0,
+          "total": 5,
+          "rate": 0
+        },
+        "ctaHierarchy": {
+          "passes": 3,
+          "total": 5,
+          "rate": 0.6
+        },
+        "responsiveNavigation": {
+          "passes": 0,
+          "total": 5,
+          "rate": 0
+        },
+        "assuranceOrder": {
+          "passes": 0,
+          "total": 5,
+          "rate": 0
+        },
+        "mobileOverflow": {
+          "passes": 5,
+          "total": 5,
+          "rate": 1
+        },
+        "ctaStates": {
+          "passes": 3,
+          "total": 5,
+          "rate": 0.6
+        }
+      },
+      "elapsedSeconds": {
+        "mean": 49.46428164140001,
+        "median": 47.913170792
+      },
+      "inputTokens": {
+        "mean": 78256.6,
+        "median": 77401
+      },
+      "outputTokens": {
+        "mean": 1975.2,
+        "median": 1953
+      },
+      "toolCallCount": {
+        "mean": 5.4,
+        "median": 5
+      },
+      "regressionFree": 5,
+      "unsupportedAssumptionFree": 5
+    },
+    "clipy_arec": {
+      "arm": "clipy_arec",
+      "label": "Clipy AREC",
+      "n": 5,
+      "functionalScore": {
+        "mean": 11.8,
+        "median": 12,
+        "sampleStandardDeviation": 0.4472135954999579,
+        "min": 11,
+        "max": 12,
+        "values": [
+          12,
+          11,
+          12,
+          12,
+          12
+        ]
+      },
+      "strictCompletion": {
+        "completed": 4,
+        "total": 5,
+        "rate": 0.8,
+        "wilson95": [
+          0.37553462976252533,
+          0.9637758913675698
+        ]
+      },
+      "fixtureSmoke": {
+        "passed": 5,
+        "total": 5
+      },
+      "requirementPassRates": {
+        "headline": {
+          "passes": 5,
+          "total": 5,
+          "rate": 1
+        },
+        "ctaHierarchy": {
+          "passes": 5,
+          "total": 5,
+          "rate": 1
+        },
+        "responsiveNavigation": {
+          "passes": 5,
+          "total": 5,
+          "rate": 1
+        },
+        "assuranceOrder": {
+          "passes": 5,
+          "total": 5,
+          "rate": 1
+        },
+        "mobileOverflow": {
+          "passes": 5,
+          "total": 5,
+          "rate": 1
+        },
+        "ctaStates": {
+          "passes": 4,
+          "total": 5,
+          "rate": 0.8
+        }
+      },
+      "elapsedSeconds": {
+        "mean": 65.42648601639999,
+        "median": 67.223861125
+      },
+      "inputTokens": {
+        "mean": 175171.6,
+        "median": 197152
+      },
+      "outputTokens": {
+        "mean": 2485.6,
+        "median": 2648
+      },
+      "toolCallCount": {
+        "mean": 6.2,
+        "median": 6
+      },
+      "regressionFree": 5,
+      "unsupportedAssumptionFree": 5
+    },
+    "complete_spec": {
+      "arm": "complete_spec",
+      "label": "Complete spec",
+      "n": 5,
+      "functionalScore": {
+        "mean": 11,
+        "median": 11,
+        "sampleStandardDeviation": 0.7071067811865476,
+        "min": 10,
+        "max": 12,
+        "values": [
+          12,
+          11,
+          10,
+          11,
+          11
+        ]
+      },
+      "strictCompletion": {
+        "completed": 1,
+        "total": 5,
+        "rate": 0.2,
+        "wilson95": [
+          0.03622410863243014,
+          0.6244653702374747
+        ]
+      },
+      "fixtureSmoke": {
+        "passed": 5,
+        "total": 5
+      },
+      "requirementPassRates": {
+        "headline": {
+          "passes": 5,
+          "total": 5,
+          "rate": 1
+        },
+        "ctaHierarchy": {
+          "passes": 5,
+          "total": 5,
+          "rate": 1
+        },
+        "responsiveNavigation": {
+          "passes": 5,
+          "total": 5,
+          "rate": 1
+        },
+        "assuranceOrder": {
+          "passes": 5,
+          "total": 5,
+          "rate": 1
+        },
+        "mobileOverflow": {
+          "passes": 1,
+          "total": 5,
+          "rate": 0.2
+        },
+        "ctaStates": {
+          "passes": 4,
+          "total": 5,
+          "rate": 0.8
+        }
+      },
+      "elapsedSeconds": {
+        "mean": 46.7113970916,
+        "median": 44.955954041
+      },
+      "inputTokens": {
+        "mean": 68842.8,
+        "median": 62563
+      },
+      "outputTokens": {
+        "mean": 2005.8,
+        "median": 1937
+      },
+      "toolCallCount": {
+        "mean": 4.4,
+        "median": 4
+      },
+      "regressionFree": 5,
+      "unsupportedAssumptionFree": 5
+    }
+  },
+  "comparisons": {
+    "arecMinusTranscript": {
+      "functionalScore": {
+        "estimate": 6.000000000000001,
+        "percentile95": [
+          4.800000000000001,
+          7.4
+        ]
+      },
+      "elapsedSeconds": {
+        "estimate": 15.962204374999985,
+        "percentile95": [
+          5.352509696299997,
+          25.99154242499999
+        ]
+      },
+      "outputTokens": {
+        "estimate": 510.39999999999986,
+        "percentile95": [
+          50.40000000000009,
+          929.0100000000001
+        ]
+      }
+    },
+    "arecMinusRaw": {
+      "functionalScore": {
+        "estimate": 9.4,
+        "percentile95": [
+          8.600000000000001,
+          10
+        ]
+      },
+      "elapsedSeconds": {
+        "estimate": -82.00330400020002,
+        "percentile95": [
+          -115.95265464151997,
+          -46.1256719334
+        ]
+      },
+      "outputTokens": {
+        "estimate": -2472.7999999999997,
+        "percentile95": [
+          -3811.6150000000002,
+          -1087.0600000000022
+        ]
+      }
+    },
+    "arecMinusCompleteSpec": {
+      "functionalScore": {
+        "estimate": 0.8000000000000007,
+        "percentile95": [
+          0.1999999999999993,
+          1.4000000000000004
+        ]
+      },
+      "elapsedSeconds": {
+        "estimate": 18.715088924799993,
+        "percentile95": [
+          7.269966110425,
+          29.040898382459986
+        ]
+      },
+      "outputTokens": {
+        "estimate": 479.79999999999995,
+        "percentile95": [
+          -7.799999999999727,
+          946.2099999999997
+        ]
+      }
+    }
+  },
+  "capability": {
+    "rawVideoDirectAttachmentSupported": false,
+    "rawFrameExtractionSucceeded": 5,
+    "rawTranscriptionAttempted": 1,
+    "rawTranscriptionSucceeded": 0,
+    "arecDocumentRead": 5,
+    "arecMomentAssetInspected": 0,
+    "totalPerArm": 5
+  },
+  "processIntegrity": {
+    "promptCount": {
+      "suppliedPerTrial": 1,
+      "additionalAcrossAnalyzedTrials": 0,
+      "clarificationRequestsAcrossAnalyzedTrials": 0
+    },
+    "trialsWithRegressionFailures": 0,
+    "trialsWithFixtureSmokeFailures": 0,
+    "trialsWithUnsupportedAssumptions": 0
+  },
+  "representativeTrials": {
+    "raw_video": {
+      "trialId": "trial-01-raw_video",
+      "score": 2,
+      "strictCompletion": false,
+      "missedRequirements": [
+        "ctaHierarchy",
+        "responsiveNavigation",
+        "assuranceOrder",
+        "mobileOverflow",
+        "ctaStates"
+      ],
+      "regressionFailures": []
+    },
+    "transcript_only": {
+      "trialId": "trial-02-transcript_only",
+      "score": 5,
+      "strictCompletion": false,
+      "missedRequirements": [
+        "headline",
+        "ctaHierarchy",
+        "responsiveNavigation",
+        "assuranceOrder",
+        "ctaStates"
+      ],
+      "regressionFailures": []
+    },
+    "clipy_arec": {
+      "trialId": "trial-01-clipy_arec",
+      "score": 12,
+      "strictCompletion": true,
+      "missedRequirements": [],
+      "regressionFailures": []
+    },
+    "complete_spec": {
+      "trialId": "trial-02-complete_spec",
+      "score": 11,
+      "strictCompletion": false,
+      "missedRequirements": [
+        "mobileOverflow"
+      ],
+      "regressionFailures": []
+    }
+  },
+  "integrity": {
+    "preregistrationSha256": "a968595c07213677117fe849068a75034d1402fc98089e287b9249d3c11fb042",
+    "preregistrationCommit": "9489567adf8da092de9d60657603ae8b52757ba4",
+    "scheduledPrimaryTrials": 20,
+    "primaryTrialsAttempted": 20,
+    "primaryTrialsAnalyzed": 20,
+    "infrastructureFailures": 0,
+    "safetyExclusions": 0,
+    "arecOrTranscriptSafetyExclusions": 0,
+    "leakageDetections": 0,
+    "secretLeakDetections": 0,
+    "reruns": 0
+  },
+  "conclusion": {
+    "primaryScoreOutcome": {
+      "status": "winner",
+      "arms": [
+        "clipy_arec"
+      ]
+    },
+    "strictCompletionOutcome": {
+      "status": "winner",
+      "arms": [
+        "clipy_arec"
+      ]
+    },
+    "thresholdChecks": {
+      "minimumMeanAdvantage": true,
+      "minimumArecStrictCompletions": true,
+      "maximumTranscriptStrictCompletions": true,
+      "withinCompleteSpecCeiling": true,
+      "noArecOrTranscriptSafetyExclusion": true
+    },
+    "evidenceSupportsPublicAdvantageClaim": true
+  }
+}
